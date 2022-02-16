@@ -1,4 +1,3 @@
-
 import BCS_API_PCKG.bcs_api as bcs
 
 # module level doc-string
@@ -34,4 +33,3 @@ if missing_dependencies:
         "Unable to import required dependencies:\n" + "\n".join(missing_dependencies)
     )
 del hard_dependencies, dependency, missing_dependencies
-
