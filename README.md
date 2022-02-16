@@ -20,3 +20,6 @@ In a python/conda terminal execute the following command:
 ```
 python testscript.py
 ```
+
+## Additional Info
+See [docs for BCS api](https://bootcampspot.com/instructor-api-docs).
