@@ -185,6 +185,7 @@ import dotenv
 import os
 
 def make_window(theme):
+# def make_window(theme, ):
     sg.theme(theme)
     menu_def = [['&Application', ['E&xit']],
                 ['&Help', ['&About']] ]
@@ -194,6 +195,12 @@ def make_window(theme):
     # Table Data
     data = [["John", 10], ["Jen", 5]]
     headings = ["Name", "Score"]
+    # try:
+    #     headings = at_head
+    #     data = at_data
+    # except:
+    #     headings = []
+    #     data = []
 
     input_layout =  [
                 # [sg.Menu(menu_def, key='-MENU-')],
@@ -308,7 +315,10 @@ def main():
             course_number = os.getenv("COURSE_NUMBER")
             
             # MAKE TO ACCEPT course_number as arguement       
-            bcs_api_obj = bcs.BCS_API(bcs_username, bcs_password)
+            bcs_api_obj = bcs.BCS_API(bcs_username, bcs_password, course_number)
+            
+            values.update({'-ATHEAD-': bcs_api_obj.attendance.columns.tolist()})
+            
             
             print(bcs_api_obj.headers)
             print(bcs_api_obj.course_id)

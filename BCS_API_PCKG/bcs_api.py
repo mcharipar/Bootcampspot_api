@@ -15,9 +15,10 @@ class BCS_API:
     """Class that accepts BCS User Login (email address)
         and Password. https://bootcampspot.com/"""
     
-    def __init__(self, username, password):
+    def __init__(self, username, password, coursenum):
         self.username = username
         self.password = password
+        self.coursenum = int(coursenum)
 
         url = 'https://bootcampspot.com/api/instructor/v1/login'
         data = {
@@ -59,7 +60,7 @@ class BCS_API:
         try:
             self.course_id = eval(str(response_json['Enrollments']).strip('[]'))['courseId']
         except:
-            self.course_id = eval(str(response_json['Enrollments'][0]).strip('[]'))['courseId']
+            self.course_id = eval(str(response_json['Enrollments'][self.coursenum]).strip('[]'))['courseId']
 
     # def bcs_attendance(self):
     #     """Accepts Course ID and dictionary header. Returns dataframe of students attendance for all sessions."""

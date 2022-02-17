@@ -8,7 +8,8 @@ This is a work in progress and looking to add additional features.
     - [ ] Possible Docker Containter creation.
 - [ ] Publish to [Pypi](https://pypi.org/) &/or to [Conda Forge](https://conda-forge.org/). 
 - [x] ~Easier way to accept BCS login credentials and to save or update them across application uses.~
-- [ ] Allows user to select which course(s) to return data on, if multiple courses tied to single account.
+- [x] ~Allows user to select which course(s) to return data on, if multiple courses tied to single account.~
+    - Only allows selection of one course at a time.
 - [ ] Saves and opens PDF report on course metrics in users default browser.
     - [ ] Univariate & Multivariate forecasting students potential performance.
 - [ ] Improve documentation.
