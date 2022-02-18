@@ -4,6 +4,9 @@ Python package to simplify working with the [bootcampspot.com](https://bootcamps
 This is a work in progress and looking to add additional features.
 - [x] GUI
     - [ ] Update UI, add more interactivity for below features.
+        - [ ] Add course feedback tab.
+        - [ ] Have Table selections update main Table and visuals.
+        - [ ] Add Visuals to Tabs.
 - [ ] Create executable file for major OS's and a simple command to compile the executable on any machine capable of running [Anaconda](https://docs.anaconda.com/anaconda/install/index.html).
     - [ ] Possible Docker Containter creation.
 - [ ] Publish to [Pypi](https://pypi.org/) &/or to [Conda Forge](https://conda-forge.org/). 
@@ -12,7 +15,11 @@ This is a work in progress and looking to add additional features.
     - Only allows selection of one course at a time.
 - [ ] Saves and opens PDF report on course metrics in users default browser.
     - [ ] Univariate & Multivariate forecasting students potential performance.
+        - [ ] Use NLP for sentiment analysis on feedback using IBM [Tone Analyzer](https://cloud.ibm.com/catalog/services/tone-analyzer). 
 - [ ] Improve documentation.
+    - Use dummy data to create visuals for repo, doc, and video info.
+    - Read the Docs.
+    - Github Pages.
 - [ ] Suggestions
 
 ## Instructions

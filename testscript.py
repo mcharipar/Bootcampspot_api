@@ -410,7 +410,7 @@ def main():
             
             # Update Grade Student Table
             grade_students_data = [[x] for x in bcs_api_obj.grades.studentName.unique().tolist()]
-            window['-STUDENTGRADETABLE-'].update(grade_students_data.sort())
+            window['-STUDENTGRADETABLE-'].update(grade_students_data)
             
             # Update Grade Table
             csv_dataset_grades = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'grades.csv')
