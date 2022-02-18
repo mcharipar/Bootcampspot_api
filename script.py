@@ -191,7 +191,7 @@ def make_window(theme):
     menu_def = [['&Application', ['E&xit']],
                 ['&Help', ['&About']] ]
     right_click_menu_def = [[], ['Edit Me', 'Versions', 'Nothing','More Nothing','Exit']]
-    graph_right_click_menu_def = [[], ['Erase','Draw Line', 'Draw',['Circle', 'Rectangle', 'Image'], 'Exit']]
+    # graph_right_click_menu_def = [[], ['Erase','Draw Line', 'Draw',['Circle', 'Rectangle', 'Image'], 'Exit']]
 
     input_layout =  [
                 # [sg.Menu(menu_def, key='-MENU-')],
@@ -210,7 +210,7 @@ def make_window(theme):
                 # [sg.Spin([i for i in range(1,11)], initial_value=10, k='-SPIN-'), sg.Text('Spin')],
 #                 [sg.Multiline('Demo of a Multi-Line Text Element!\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6\nLine 7\nYou get the point.', size=(45,5), expand_x=True, expand_y=True, k='-MLINE-')],
                 # [sg.Button('Confirm Login Info'), sg.Button('Popup'), sg.Button(image_data=sg.DEFAULT_BASE64_ICON, key='-LOGO-')]]
-                [sg.Button('Confirm Login Info'), sg.Button('Popup')]]
+                [sg.Button('Confirm Login Info')]]#, sg.Button('Popup')]]
 
     asthetic_layout = [[sg.T('Anything that you would use for asthetics is in this tab!')],
                [sg.Image(data=sg.DEFAULT_BASE64_ICON,  k='-IMAGE-')],
@@ -223,12 +223,14 @@ def make_window(theme):
                       ]
     
     # Table Data
+    students_data = []
+    student_heading = ['    Students    ']
+    
     data = []
     heading = ['sessionName', 'studentName', 'pending', 'present', 'remote', 'excused']
     # heading = []
     
-    students_data = []
-    student_heading = ['    Students    ']
+    
     
     # graphing_layout = [[sg.Text("Anything you would use to graph will display here!")],
                       # [sg.Graph((200,200), (0,0),(200,200),background_color="black", key='-GRAPH-', enable_events=True,
@@ -270,8 +272,8 @@ def make_window(theme):
     grade_students_data = []
     grade_student_heading = ['    Students    ']
     
-    assignments_data = []
-    assignments_heading = ['       Assignments       ']    
+    assignments_data
+    assignments_heading = ['       Assignments       ']
     
     grade_data = []
     grade_heading = ['assignmentTitle', 'studentName', 'submitted', 'grade']
@@ -288,22 +290,9 @@ def make_window(theme):
                                 alternating_row_color='black',
                                 key='-STUDENTGRADETABLE-', 
                                 # enable_events=True, # ADDED
-                                row_height=25), sg.Table(values=assignments_data, 
-                                headings=assignments_heading, 
-                                max_col_width=25,
-                                background_color='black',
-                                auto_size_columns=True,
-                                display_row_numbers=False,
-                                justification='right',
-                                # num_rows=2,
-                                alternating_row_color='black',
-                                key='-ASSIGNMENTSTABLE-', 
-                                # enable_events=True, # ADDED
-                                row_height=25)],        
-                      [sg.Button('Update G.Students'), sg.Button('Update Assignments')],
-                              
-                        
-                              [sg.Table(values=grade_data, 
+                                row_height=25)],
+                      [sg.Button('Update G.Students')],
+                      [sg.Table(values=grade_data, 
                                 headings=grade_heading, 
                                 max_col_width=25,
                                 background_color='black',
@@ -316,6 +305,32 @@ def make_window(theme):
                                 # enable_events=True, # ADDED
                                 row_height=25)],
                       [sg.Button('Update Grades Table')]]
+                      #         [sg.Table(values=assignments_data, 
+                      #           headings=assignments_heading, 
+                      #           max_col_width=25,
+                      #           background_color='black',
+                      #           auto_size_columns=True,
+                      #           display_row_numbers=False,
+                      #           justification='right',
+                      #           # num_rows=2,
+                      #           alternating_row_color='black',
+                      #           key='-ASSIGNMENTSTABLE-', 
+                      #           # enable_events=True, # ADDED
+                      #           row_height=25)],
+                      # [sg.Button('Update Assignments')],
+                      #         [sg.Table(values=grade_data, 
+                      #           headings=grade_heading, 
+                      #           max_col_width=25,
+                      #           background_color='black',
+                      #           auto_size_columns=True,
+                      #           display_row_numbers=True,
+                      #           justification='right',
+                      #           # num_rows=2,
+                      #           alternating_row_color='black',
+                      #           key='-GRADETABLE-', 
+                      #           # enable_events=True, # ADDED
+                      #           row_height=25)],
+                      # [sg.Button('Update Grades Table')]]
     
     
 #     popup_layout = [[sg.Text("Popup Testing")],
@@ -338,7 +353,6 @@ def make_window(theme):
                                # sg.Tab('Popups', popup_layout),
                                # sg.Tab('Theming', theme_layout),
                                sg.Tab('Output', logging_layout)]], key='-TAB GROUP-', expand_x=True, expand_y=True),
-
                ]]
     layout[-1].append(sg.Sizegrip())
     window = sg.Window('BCS API INFO', layout, right_click_menu=right_click_menu_def, right_click_menu_tearoff=True, grab_anywhere=True, resizable=True, margins=(0,0), use_custom_titlebar=True, finalize=True, keep_on_top=True,
@@ -409,8 +423,8 @@ def main():
             data = ATDATA
             window['-TABLE-'].update(data)
             
-            # Update Grade Student Table
-            grade_students_data = [[x] for x in bcs_api_obj.grades.studentName.unique().tolist()]
+            Update Grade Student Table
+            grade_students_data = [[x] for x in bcs_api_obj.grades.columns.tolist()]
             window['-STUDENTGRADETABLE-'].update(grade_students_data)
             
             # Update Grade Table
@@ -428,7 +442,8 @@ def main():
             
             # Update Assignments Table
             assignments_data = [[x] for x in bcs_api_obj.grades.assignmentTitle.unique().tolist()]
-            window['-ASSIGNMENTSTABLE-'].update(assignments_data)
+            window['ASSIGNMENTSTABLE'].update(assignments_data)
+
             
             
             
@@ -444,10 +459,10 @@ def main():
             # print(bcs_api_obj.grades)
             # print(bcs_api_obj.bcs_weekly_feeback())
 
-            print('============ Event = ', event, ' ==============')
-            print('-------- Values Dictionary (key=value) --------')
-            for key in values:
-                print(key, ' = ',values[key])
+            # print('============ Event = ', event, ' ==============')
+            # print('-------- Values Dictionary (key=value) --------')
+            # for key in values:
+            #     print(key, ' = ',values[key])
                 
         if event in (None, 'Exit'):
             print("[LOG] Clicked Exit!")
@@ -461,18 +476,18 @@ def main():
                      'Output of event and values can be see in Output tab',
                      'Visit for additional info visit https://github.com/mcharipar/Bootcampspot_api.', keep_on_top=True)
         
-        elif event == 'Popup':
-            print("[LOG] Clicked Popup Button!")
-            sg.popup("You pressed a button!", keep_on_top=True)
-            print("[LOG] Dismissing Popup!")
+#         elif event == 'Popup':
+#             print("[LOG] Clicked Popup Button!")
+#             sg.popup("You pressed a button!", keep_on_top=True)
+#             print("[LOG] Dismissing Popup!")
         
-        elif event == 'Test Progress bar':
-            print("[LOG] Clicked Test Progress Bar!")
-            progress_bar = window['-PROGRESS BAR-']
-            for i in range(100):
-                print("[LOG] Updating progress bar by 1 step ("+str(i)+")")
-                progress_bar.update(current_count=i + 1)
-            print("[LOG] Progress bar complete!")
+#         elif event == 'Test Progress bar':
+#             print("[LOG] Clicked Test Progress Bar!")
+#             progress_bar = window['-PROGRESS BAR-']
+#             for i in range(100):
+#                 print("[LOG] Updating progress bar by 1 step ("+str(i)+")")
+#                 progress_bar.update(current_count=i + 1)
+#             print("[LOG] Progress bar complete!")
         
         # elif event == "-GRAPH-":
         #     graph = window['-GRAPH-']       # type: sg.Graph
@@ -481,81 +496,82 @@ def main():
         
         
         # ADDED
-        elif event == "Update Table":
-            csv_dataset = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'attendance.csv')
-            bcs_api_obj.attendance.to_csv(csv_dataset, index=False)
+        
+        
+        
+#         elif event == "Update Table":
+#             csv_dataset = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'attendance.csv')
+#             bcs_api_obj.attendance.to_csv(csv_dataset, index=False)
 
-            ATDATA = []
-            with open(csv_dataset, "r") as txt_file:
-                ATHEAD = txt_file.readline().replace('\n','').split(',')
+#             ATDATA = []
+#             with open(csv_dataset, "r") as txt_file:
+#                 ATHEAD = txt_file.readline().replace('\n','').split(',')
 
-                for line in txt_file:
-                    ATDATA.append(line.replace('\n','').split(','))
+#                 for line in txt_file:
+#                     ATDATA.append(line.replace('\n','').split(','))
 
-            # heading = [[x] for x in bcs_api_obj.attendance.columns.tolist()]
-            # heading = [[x] for x in ATHEAD]
-            data = ATDATA
+#             # heading = [[x] for x in bcs_api_obj.attendance.columns.tolist()]
+#             # heading = [[x] for x in ATHEAD]
+#             data = ATDATA
             
-            # window['-TABLE-'].update(heading)
-            window['-TABLE-'].update(data)
-            # window.refresh()
+#             # window['-TABLE-'].update(heading)
+#             window['-TABLE-'].update(data)
+#             # window.refresh()
 
             
-        elif event == 'Update Students':
-            students_data = [[x] for x in bcs_api_obj.attendance.studentName.unique().tolist()]
-            try:
-                # students_data
-                window['-STUDENTTABLE-'].update(students_data)
-            except:
-                print('student update failed')
+#         elif event == 'Update Students':
+#             students_data = [[x] for x in bcs_api_obj.attendance.studentName.unique().tolist()]
+#             try:
+#                 # students_data
+#                 window['-STUDENTTABLE-'].update(students_data)
+#             except:
+#                 print('student update failed')
                 
-        elif event == "'Update G.Students'":
-            csv_dataset_grades = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'grades.csv')
-            bcs_api_obj.grades.to_csv(csv_dataset_grades, index=False)
+#         elif event == "Update Grades Table":
+#             csv_dataset_grades = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'grades.csv')
+#             bcs_api_obj.grades.to_csv(csv_dataset_grades, index=False)
 
-            GRDATA = []
-            with open(csv_dataset_grades, "r") as txt_file:
-                AGRHEAD = txt_file.readline().replace('\n','').split(',')    
-                for line in txt_file:
-                    GRDATA.append(line.replace('\n','').split(','))
+#             GRDATA = []
+#             with open(csv_dataset_grades, "r") as txt_file:
+#                 AGRHEAD = txt_file.readline().replace('\n','').split(',')    
+#                 for line in txt_file:
+#                     GRDATA.append(line.replace('\n','').split(','))
 
-            grade_data = GRDATA
-            window['-GRADETABLE-'].update(grade_data)
+#             grade_data = GRDATA
+#             window['-GRADETABLE-'].update(grade_data)
             
-        elif event == 'Update G.Students':
-            grade_students_data = [[x] for x in bcs_api_obj.grades.studentName.unique().tolist()]
-            try:
-                # students_data
-                window['-STUDENTGRADETABLE-'].update(grade_students_data)
-            except:
-                print('g.student update failed')
-    
-        elif event == 'Update Assignments':
-            assignments_data = [[x] for x in bcs_api_obj.grades.assignmentTitle.unique().tolist()]
-            try:
-                window['-ASSIGNMENTSTABLE-'].update(assignments_data)
-            except:
-                print('Assignments update failed')
-        
-        
-        
+#         elif event == 'Update G.Students':
+#             grade_students_data = [[x] for x in bcs_api_obj.grades.columns.tolist()]
+#             try:
+#                 window['-STUDENTGRADETABLE-'].update(grade_students_data)
+#             except:
+#                 print('g.student update failed')
+                
+        # elif event == 'Update Assignments':
+        #     assignments_data = [[x] for x in bcs_api_obj.grades.assignmentTitle.unique().tolist()]
+        #     try:
+        #         window['ASSIGNMENTSTABLE'].update(assignments_data)
+        #     except:
+        #         print('Assignments update failed')
+
             
-        elif event == "Open Folder":
-            print("[LOG] Clicked Open Folder!")
-            folder_or_file = sg.popup_get_folder('Choose your folder', keep_on_top=True)
-            sg.popup("You chose: " + str(folder_or_file), keep_on_top=True)
-            print("[LOG] User chose folder: " + str(folder_or_file))
-        elif event == "Open File":
-            print("[LOG] Clicked Open File!")
-            folder_or_file = sg.popup_get_file('Choose your file', keep_on_top=True)
-            sg.popup("You chose: " + str(folder_or_file), keep_on_top=True)
-            print("[LOG] User chose file: " + str(folder_or_file))
-        elif event == "Set Theme":
-            print("[LOG] Clicked Set Theme!")
-            theme_chosen = values['-THEME LISTBOX-'][0]
-            print("[LOG] User Chose Theme: " + str(theme_chosen))
-            window.close()
-            window = make_window(theme_chosen)
+            
+        # elif event == "Open Folder":
+        #     print("[LOG] Clicked Open Folder!")
+        #     folder_or_file = sg.popup_get_folder('Choose your folder', keep_on_top=True)
+        #     sg.popup("You chose: " + str(folder_or_file), keep_on_top=True)
+        #     print("[LOG] User chose folder: " + str(folder_or_file))
+        # elif event == "Open File":
+        #     print("[LOG] Clicked Open File!")
+        #     folder_or_file = sg.popup_get_file('Choose your file', keep_on_top=True)
+        #     sg.popup("You chose: " + str(folder_or_file), keep_on_top=True)
+        #     print("[LOG] User chose file: " + str(folder_or_file))
+        # elif event == "Set Theme":
+        #     print("[LOG] Clicked Set Theme!")
+        #     theme_chosen = values['-THEME LISTBOX-'][0]
+        #     print("[LOG] User Chose Theme: " + str(theme_chosen))
+        #     window.close()
+        #     window = make_window(theme_chosen)
         elif event == 'Edit Me':
             sg.execute_editor(__file__)
         elif event == 'Versions':
