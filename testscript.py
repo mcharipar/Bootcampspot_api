@@ -184,6 +184,8 @@ from BCS_API_PCKG import bcs
 import dotenv
 import os
 from pathlib import Path
+import re
+
 
 def make_window(theme):
 # def make_window(theme, ):
@@ -216,7 +218,7 @@ def make_window(theme):
                [sg.Image(data=sg.DEFAULT_BASE64_ICON,  k='-IMAGE-')],
                [sg.ProgressBar(100, orientation='h', size=(20, 20), key='-PROGRESS BAR-'), sg.Button('Test Progress bar')]]
 
-    logging_layout = [[sg.Text("Anything printed will display here!")],
+    logging_layout = [[sg.Text("Use this for debugging.")],
                       [sg.Multiline(size=(60,15), font='Courier 8', expand_x=True, expand_y=True, write_only=True,
                                     reroute_stdout=True, reroute_stderr=True, echo_stdout_stderr=True, autoscroll=True, auto_refresh=True)]
                       # [sg.Output(size=(60,15), font='Courier 8', expand_x=True, expand_y=True)]
@@ -263,10 +265,7 @@ def make_window(theme):
                       [sg.Button('Update Table')]]
 
     
-    # Table Data
-    
-    # heading = []
-    
+    # Table Data    
     grade_students_data = []
     grade_student_heading = ['    Students    ']
     
@@ -274,7 +273,7 @@ def make_window(theme):
     assignments_heading = ['       Assignments       ']    
     
     grade_data = []
-    grade_heading = ['assignmentTitle', 'studentName', 'submitted', 'grade']
+    grade_heading = ['assignmentTitle', '   studentName   ', 'submitted', 'grade']
     
     
     grades_graphing_layout = [[sg.Table(values=grade_students_data, 
@@ -337,7 +336,7 @@ def make_window(theme):
                                sg.Tab('Grades', grades_graphing_layout),
                                # sg.Tab('Popups', popup_layout),
                                # sg.Tab('Theming', theme_layout),
-                               sg.Tab('Output', logging_layout)]], key='-TAB GROUP-', expand_x=True, expand_y=True),
+                               sg.Tab('Log', logging_layout)]], key='-TAB GROUP-', expand_x=True, expand_y=True),
 
                ]]
     layout[-1].append(sg.Sizegrip())
@@ -411,7 +410,7 @@ def main():
             
             # Update Grade Student Table
             grade_students_data = [[x] for x in bcs_api_obj.grades.studentName.unique().tolist()]
-            window['-STUDENTGRADETABLE-'].update(grade_students_data)
+            window['-STUDENTGRADETABLE-'].update(grade_students_data.sort())
             
             # Update Grade Table
             csv_dataset_grades = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'grades.csv')
@@ -427,7 +426,20 @@ def main():
             window['-GRADETABLE-'].update(grade_data)
             
             # Update Assignments Table
-            assignments_data = [[x] for x in bcs_api_obj.grades.assignmentTitle.unique().tolist()]
+            assignments_data = bcs_api_obj.grades.assignmentTitle.unique().tolist()
+            def atoi(text):
+                return int(text) if text.isdigit() else text
+
+            def natural_keys(text):
+                '''
+                alist.sort(key=natural_keys) sorts in human order
+                http://nedbatchelder.com/blog/200712/human_sorting.html
+                (See Toothy's implementation in the comments)
+                '''
+                return [ atoi(c) for c in re.split(r'(\d+)', text) ]
+
+            assignments_data.sort(key=natural_keys)
+            assignments_data = [[x] for x in assignments_data]
             window['-ASSIGNMENTSTABLE-'].update(assignments_data)
             
             
@@ -448,7 +460,17 @@ def main():
             print('-------- Values Dictionary (key=value) --------')
             for key in values:
                 print(key, ' = ',values[key])
-                
+            
+            # GET SELECTED CELL VALUE
+            # cell_index = [int(x) for x in values['-STUDENTGRADETABLE-']] 
+            cell_index = 0
+            for x in values['-STUDENTGRADETABLE-']:
+                cell_index = x
+            
+            # cell_index = values['-STUDENTGRADETABLE-']
+            print(cell_index)
+            print(type(cell_index))
+            print(students_data[cell_index])
         if event in (None, 'Exit'):
             print("[LOG] Clicked Exit!")
             break
@@ -531,7 +553,21 @@ def main():
                 print('g.student update failed')
     
         elif event == 'Update Assignments':
-            assignments_data = [[x] for x in bcs_api_obj.grades.assignmentTitle.unique().tolist()]
+            # Update Assignments Table
+            assignments_data = bcs_api_obj.grades.assignmentTitle.unique().tolist()
+            def atoi(text):
+                return int(text) if text.isdigit() else text
+
+            def natural_keys(text):
+                '''
+                alist.sort(key=natural_keys) sorts in human order
+                http://nedbatchelder.com/blog/200712/human_sorting.html
+                (See Toothy's implementation in the comments)
+                '''
+                return [ atoi(c) for c in re.split(r'(\d+)', text) ]
+
+            assignments_data.sort(key=natural_keys)
+            assignments_data = [[x] for x in assignments_data]
             try:
                 window['-ASSIGNMENTSTABLE-'].update(assignments_data)
             except:
