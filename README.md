@@ -4,7 +4,8 @@ Python package to simplify working with the [bootcampspot.com](https://bootcamps
 This is a work in progress and looking to add additional features.
 - [x] GUI
     - [ ] Update UI, add more interactivity for below features.
-        - [ ] Add course feedback tab.
+        - [x] Add course feedback tab.
+            - [ ] Add questions table.
         - [ ] Have Table selections update main Table and visuals.
         - [ ] Add Visuals to Tabs.
 - [ ] Create executable file for major OS's and a simple command to compile the executable on any machine capable of running [Anaconda](https://docs.anaconda.com/anaconda/install/index.html).

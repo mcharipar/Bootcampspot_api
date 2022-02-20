@@ -50,8 +50,6 @@ class BCS_API:
 #     def me(self):
 #         """Accepts dictionary header and returns Course ID info."""
 
-#         import pandas as pd
-
         url = 'https://bootcampspot.com/api/instructor/v1/me'
         response = requests.get(url, headers=self.headers)
         response_json = response.json()
@@ -60,8 +58,12 @@ class BCS_API:
         try:
             self.course_id = eval(str(response_json['Enrollments']).strip('[]'))['courseId']
         except:
-            self.course_id = eval(str(response_json['Enrollments'][self.coursenum]).strip('[]'))['courseId']
-
+            try:
+                self.course_id = eval(str(response_json['Enrollments'][self.coursenum]).strip('[]'))['courseId']
+            except:
+                print('Course id number out of range, defaulting to Course0')
+                self.course_id = eval(str(response_json['Enrollments'][0]).strip('[]'))['courseId']
+                
     # def bcs_attendance(self):
     #     """Accepts Course ID and dictionary header. Returns dataframe of students attendance for all sessions."""
 
@@ -89,8 +91,6 @@ class BCS_API:
     def bcs_weekly_feeback(self):
         """Accepts Course ID and dictionary header. Returns dataframe of students grades for all assignents."""
 
-        # import requests
-        # import pandas as pd
         try:
             url = 'https://bootcampspot.com/api/instructor/v1/weeklyFeedback'
             data = {"courseId": self.course_id}

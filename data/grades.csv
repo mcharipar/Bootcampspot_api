@@ -1,677 +1,625 @@
 assignmentTitle,studentName,submitted,grade
-0: FinTech Prework,Adedoyin Obasanya,True,A+
-0: FinTech Prework,Alyssa Younger,True,A+
-0: FinTech Prework,Ameira Khaleq,False,
-0: FinTech Prework,Amelia Guzman grega,False,
-0: FinTech Prework,Avinash Patel,True,A+
-0: FinTech Prework,Babatunde Hambolu,False,
-0: FinTech Prework,Billel Loubari,False,
-0: FinTech Prework,Christine Nashashibi,False,
-0: FinTech Prework,David Hori,False,
-0: FinTech Prework,Evan Sadasivan,False,
-0: FinTech Prework,Jeff Brinker,False,
-0: FinTech Prework,John Musgrave,False,
-0: FinTech Prework,John Ryan,False,
-0: FinTech Prework,Justin Leffew,False,
-0: FinTech Prework,kamalnivas balasubramanian,False,
-0: FinTech Prework,Krystle Hokanson,False,
-0: FinTech Prework,Linda Cruz,False,
-0: FinTech Prework,Patricia Rajamanickam,False,
-0: FinTech Prework,Patrick Corr,True,A+
-0: FinTech Prework,Ramana Challa,False,
-0: FinTech Prework,Santiago Esguerra,False,
-0: FinTech Prework,Shaheed Ghogha,False,
-0: FinTech Prework,Sufyan Shaikh,False,
-0: FinTech Prework,Tyler Ward,False,
-0: FinTech Prework,Vasyl Alba,True,A+
-0: FinTech Prework,William Weinman,False,
-10: Time Series Analysis,Adedoyin Obasanya,False,
-10: Time Series Analysis,Alyssa Younger,False,
-10: Time Series Analysis,Ameira Khaleq,False,
-10: Time Series Analysis,Amelia Guzman grega,False,
-10: Time Series Analysis,Avinash Patel,False,
-10: Time Series Analysis,Babatunde Hambolu,False,
-10: Time Series Analysis,Billel Loubari,False,
-10: Time Series Analysis,Christine Nashashibi,False,
-10: Time Series Analysis,David Hori,False,
-10: Time Series Analysis,Evan Sadasivan,False,
-10: Time Series Analysis,Jeff Brinker,False,
-10: Time Series Analysis,John Musgrave,False,
-10: Time Series Analysis,John Ryan,False,
-10: Time Series Analysis,Justin Leffew,False,
-10: Time Series Analysis,kamalnivas balasubramanian,False,
-10: Time Series Analysis,Krystle Hokanson,False,
-10: Time Series Analysis,Linda Cruz,False,
-10: Time Series Analysis,Patricia Rajamanickam,False,
-10: Time Series Analysis,Patrick Corr,False,
-10: Time Series Analysis,Ramana Challa,False,
-10: Time Series Analysis,Santiago Esguerra,False,
-10: Time Series Analysis,Shaheed Ghogha,False,
-10: Time Series Analysis,Sufyan Shaikh,False,
-10: Time Series Analysis,Tyler Ward,False,
-10: Time Series Analysis,Vasyl Alba,False,
-10: Time Series Analysis,William Weinman,False,
-11: Classification,Adedoyin Obasanya,False,
-11: Classification,Alyssa Younger,False,
-11: Classification,Ameira Khaleq,False,
-11: Classification,Amelia Guzman grega,False,
-11: Classification,Avinash Patel,False,
-11: Classification,Babatunde Hambolu,False,
-11: Classification,Billel Loubari,False,
-11: Classification,Christine Nashashibi,False,
-11: Classification,David Hori,False,
-11: Classification,Evan Sadasivan,False,
-11: Classification,Jeff Brinker,False,
-11: Classification,John Musgrave,False,
-11: Classification,John Ryan,False,
-11: Classification,Justin Leffew,False,
-11: Classification,kamalnivas balasubramanian,False,
-11: Classification,Krystle Hokanson,False,
-11: Classification,Linda Cruz,False,
-11: Classification,Patricia Rajamanickam,False,
-11: Classification,Patrick Corr,False,
-11: Classification,Ramana Challa,False,
-11: Classification,Santiago Esguerra,False,
-11: Classification,Shaheed Ghogha,False,
-11: Classification,Sufyan Shaikh,False,
-11: Classification,Tyler Ward,False,
-11: Classification,Vasyl Alba,False,
-11: Classification,William Weinman,False,
-12: Natural Language Processing,Adedoyin Obasanya,False,
-12: Natural Language Processing,Alyssa Younger,False,
-12: Natural Language Processing,Ameira Khaleq,False,
-12: Natural Language Processing,Amelia Guzman grega,False,
-12: Natural Language Processing,Avinash Patel,False,
-12: Natural Language Processing,Babatunde Hambolu,False,
-12: Natural Language Processing,Billel Loubari,False,
-12: Natural Language Processing,Christine Nashashibi,False,
-12: Natural Language Processing,David Hori,False,
-12: Natural Language Processing,Evan Sadasivan,False,
-12: Natural Language Processing,Jeff Brinker,False,
-12: Natural Language Processing,John Musgrave,False,
-12: Natural Language Processing,John Ryan,False,
-12: Natural Language Processing,Justin Leffew,False,
-12: Natural Language Processing,kamalnivas balasubramanian,False,
-12: Natural Language Processing,Krystle Hokanson,False,
-12: Natural Language Processing,Linda Cruz,False,
-12: Natural Language Processing,Patricia Rajamanickam,False,
-12: Natural Language Processing,Patrick Corr,False,
-12: Natural Language Processing,Ramana Challa,False,
-12: Natural Language Processing,Santiago Esguerra,False,
-12: Natural Language Processing,Shaheed Ghogha,False,
-12: Natural Language Processing,Sufyan Shaikh,False,
-12: Natural Language Processing,Tyler Ward,False,
-12: Natural Language Processing,Vasyl Alba,False,
-12: Natural Language Processing,William Weinman,False,
-13: AWS-Cloud,Adedoyin Obasanya,False,
-13: AWS-Cloud,Alyssa Younger,False,
-13: AWS-Cloud,Ameira Khaleq,False,
-13: AWS-Cloud,Amelia Guzman grega,False,
-13: AWS-Cloud,Avinash Patel,False,
-13: AWS-Cloud,Babatunde Hambolu,False,
-13: AWS-Cloud,Billel Loubari,False,
-13: AWS-Cloud,Christine Nashashibi,False,
-13: AWS-Cloud,David Hori,False,
-13: AWS-Cloud,Evan Sadasivan,False,
-13: AWS-Cloud,Jeff Brinker,False,
-13: AWS-Cloud,John Musgrave,False,
-13: AWS-Cloud,John Ryan,False,
-13: AWS-Cloud,Justin Leffew,False,
-13: AWS-Cloud,kamalnivas balasubramanian,False,
-13: AWS-Cloud,Krystle Hokanson,False,
-13: AWS-Cloud,Linda Cruz,False,
-13: AWS-Cloud,Patricia Rajamanickam,False,
-13: AWS-Cloud,Patrick Corr,False,
-13: AWS-Cloud,Ramana Challa,False,
-13: AWS-Cloud,Santiago Esguerra,False,
-13: AWS-Cloud,Shaheed Ghogha,False,
-13: AWS-Cloud,Sufyan Shaikh,False,
-13: AWS-Cloud,Tyler Ward,False,
-13: AWS-Cloud,Vasyl Alba,False,
-13: AWS-Cloud,William Weinman,False,
-14: Deep Learning,Adedoyin Obasanya,False,
-14: Deep Learning,Alyssa Younger,False,
-14: Deep Learning,Ameira Khaleq,False,
-14: Deep Learning,Amelia Guzman grega,False,
-14: Deep Learning,Avinash Patel,False,
-14: Deep Learning,Babatunde Hambolu,False,
-14: Deep Learning,Billel Loubari,False,
-14: Deep Learning,Christine Nashashibi,False,
-14: Deep Learning,David Hori,False,
-14: Deep Learning,Evan Sadasivan,False,
-14: Deep Learning,Jeff Brinker,False,
-14: Deep Learning,John Musgrave,False,
-14: Deep Learning,John Ryan,False,
-14: Deep Learning,Justin Leffew,False,
-14: Deep Learning,kamalnivas balasubramanian,False,
-14: Deep Learning,Krystle Hokanson,False,
-14: Deep Learning,Linda Cruz,False,
-14: Deep Learning,Patricia Rajamanickam,False,
-14: Deep Learning,Patrick Corr,False,
-14: Deep Learning,Ramana Challa,False,
-14: Deep Learning,Santiago Esguerra,False,
-14: Deep Learning,Shaheed Ghogha,False,
-14: Deep Learning,Sufyan Shaikh,False,
-14: Deep Learning,Tyler Ward,False,
-14: Deep Learning,Vasyl Alba,False,
-14: Deep Learning,William Weinman,False,
-15: Algorithmic Trading,Adedoyin Obasanya,False,
-15: Algorithmic Trading,Alyssa Younger,False,
-15: Algorithmic Trading,Ameira Khaleq,False,
-15: Algorithmic Trading,Amelia Guzman grega,False,
-15: Algorithmic Trading,Avinash Patel,False,
-15: Algorithmic Trading,Babatunde Hambolu,False,
-15: Algorithmic Trading,Billel Loubari,False,
-15: Algorithmic Trading,Christine Nashashibi,False,
-15: Algorithmic Trading,David Hori,False,
-15: Algorithmic Trading,Evan Sadasivan,False,
-15: Algorithmic Trading,Jeff Brinker,False,
-15: Algorithmic Trading,John Musgrave,False,
-15: Algorithmic Trading,John Ryan,False,
-15: Algorithmic Trading,Justin Leffew,False,
-15: Algorithmic Trading,kamalnivas balasubramanian,False,
-15: Algorithmic Trading,Krystle Hokanson,False,
-15: Algorithmic Trading,Linda Cruz,False,
-15: Algorithmic Trading,Patricia Rajamanickam,False,
-15: Algorithmic Trading,Patrick Corr,False,
-15: Algorithmic Trading,Ramana Challa,False,
-15: Algorithmic Trading,Santiago Esguerra,False,
-15: Algorithmic Trading,Shaheed Ghogha,False,
-15: Algorithmic Trading,Sufyan Shaikh,False,
-15: Algorithmic Trading,Tyler Ward,False,
-15: Algorithmic Trading,Vasyl Alba,False,
-15: Algorithmic Trading,William Weinman,False,
-18: Blockchain Building Blocks,Adedoyin Obasanya,False,
-18: Blockchain Building Blocks,Alyssa Younger,False,
-18: Blockchain Building Blocks,Ameira Khaleq,False,
-18: Blockchain Building Blocks,Amelia Guzman grega,False,
-18: Blockchain Building Blocks,Avinash Patel,False,
-18: Blockchain Building Blocks,Babatunde Hambolu,False,
-18: Blockchain Building Blocks,Billel Loubari,False,
-18: Blockchain Building Blocks,Christine Nashashibi,False,
-18: Blockchain Building Blocks,David Hori,False,
-18: Blockchain Building Blocks,Evan Sadasivan,False,
-18: Blockchain Building Blocks,Jeff Brinker,False,
-18: Blockchain Building Blocks,John Musgrave,False,
-18: Blockchain Building Blocks,John Ryan,False,
-18: Blockchain Building Blocks,Justin Leffew,False,
-18: Blockchain Building Blocks,kamalnivas balasubramanian,False,
-18: Blockchain Building Blocks,Krystle Hokanson,False,
-18: Blockchain Building Blocks,Linda Cruz,False,
-18: Blockchain Building Blocks,Patricia Rajamanickam,False,
-18: Blockchain Building Blocks,Patrick Corr,False,
-18: Blockchain Building Blocks,Ramana Challa,False,
-18: Blockchain Building Blocks,Santiago Esguerra,False,
-18: Blockchain Building Blocks,Shaheed Ghogha,False,
-18: Blockchain Building Blocks,Sufyan Shaikh,False,
-18: Blockchain Building Blocks,Tyler Ward,False,
-18: Blockchain Building Blocks,Vasyl Alba,False,
-18: Blockchain Building Blocks,William Weinman,False,
-19: Blockchain with Python,Adedoyin Obasanya,False,
-19: Blockchain with Python,Alyssa Younger,False,
-19: Blockchain with Python,Ameira Khaleq,False,
-19: Blockchain with Python,Amelia Guzman grega,False,
-19: Blockchain with Python,Avinash Patel,False,
-19: Blockchain with Python,Babatunde Hambolu,False,
-19: Blockchain with Python,Billel Loubari,False,
-19: Blockchain with Python,Christine Nashashibi,False,
-19: Blockchain with Python,David Hori,False,
-19: Blockchain with Python,Evan Sadasivan,False,
-19: Blockchain with Python,Jeff Brinker,False,
-19: Blockchain with Python,John Musgrave,False,
-19: Blockchain with Python,John Ryan,False,
-19: Blockchain with Python,Justin Leffew,False,
-19: Blockchain with Python,kamalnivas balasubramanian,False,
-19: Blockchain with Python,Krystle Hokanson,False,
-19: Blockchain with Python,Linda Cruz,False,
-19: Blockchain with Python,Patricia Rajamanickam,False,
-19: Blockchain with Python,Patrick Corr,False,
-19: Blockchain with Python,Ramana Challa,False,
-19: Blockchain with Python,Santiago Esguerra,False,
-19: Blockchain with Python,Shaheed Ghogha,False,
-19: Blockchain with Python,Sufyan Shaikh,False,
-19: Blockchain with Python,Tyler Ward,False,
-19: Blockchain with Python,Vasyl Alba,False,
-19: Blockchain with Python,William Weinman,False,
-1: Intro to Finance,Adedoyin Obasanya,False,
-1: Intro to Finance,Alyssa Younger,False,
-1: Intro to Finance,Ameira Khaleq,True,
-1: Intro to Finance,Amelia Guzman grega,False,
-1: Intro to Finance,Avinash Patel,True,
-1: Intro to Finance,Babatunde Hambolu,False,
-1: Intro to Finance,Billel Loubari,False,
-1: Intro to Finance,Christine Nashashibi,False,
-1: Intro to Finance,David Hori,False,
-1: Intro to Finance,Evan Sadasivan,False,
-1: Intro to Finance,Jeff Brinker,False,
-1: Intro to Finance,John Musgrave,False,
-1: Intro to Finance,John Ryan,True,
-1: Intro to Finance,Justin Leffew,True,
-1: Intro to Finance,kamalnivas balasubramanian,False,
-1: Intro to Finance,Krystle Hokanson,False,
-1: Intro to Finance,Linda Cruz,False,
-1: Intro to Finance,Patricia Rajamanickam,False,
-1: Intro to Finance,Patrick Corr,False,
-1: Intro to Finance,Ramana Challa,False,
-1: Intro to Finance,Santiago Esguerra,False,
-1: Intro to Finance,Shaheed Ghogha,False,
-1: Intro to Finance,Sufyan Shaikh,False,
-1: Intro to Finance,Tyler Ward,False,
-1: Intro to Finance,Vasyl Alba,False,
-1: Intro to Finance,William Weinman,False,
-20: Smart Contracts with Solidity,Adedoyin Obasanya,False,
-20: Smart Contracts with Solidity,Alyssa Younger,False,
-20: Smart Contracts with Solidity,Ameira Khaleq,False,
-20: Smart Contracts with Solidity,Amelia Guzman grega,False,
-20: Smart Contracts with Solidity,Avinash Patel,False,
-20: Smart Contracts with Solidity,Babatunde Hambolu,False,
-20: Smart Contracts with Solidity,Billel Loubari,False,
-20: Smart Contracts with Solidity,Christine Nashashibi,False,
-20: Smart Contracts with Solidity,David Hori,False,
-20: Smart Contracts with Solidity,Evan Sadasivan,False,
-20: Smart Contracts with Solidity,Jeff Brinker,False,
-20: Smart Contracts with Solidity,John Musgrave,False,
-20: Smart Contracts with Solidity,John Ryan,False,
-20: Smart Contracts with Solidity,Justin Leffew,False,
-20: Smart Contracts with Solidity,kamalnivas balasubramanian,False,
-20: Smart Contracts with Solidity,Krystle Hokanson,False,
-20: Smart Contracts with Solidity,Linda Cruz,False,
-20: Smart Contracts with Solidity,Patricia Rajamanickam,False,
-20: Smart Contracts with Solidity,Patrick Corr,False,
-20: Smart Contracts with Solidity,Ramana Challa,False,
-20: Smart Contracts with Solidity,Santiago Esguerra,False,
-20: Smart Contracts with Solidity,Shaheed Ghogha,False,
-20: Smart Contracts with Solidity,Sufyan Shaikh,False,
-20: Smart Contracts with Solidity,Tyler Ward,False,
-20: Smart Contracts with Solidity,Vasyl Alba,False,
-20: Smart Contracts with Solidity,William Weinman,False,
-21: Advance Solidity,Adedoyin Obasanya,False,
-21: Advance Solidity,Alyssa Younger,False,
-21: Advance Solidity,Ameira Khaleq,False,
-21: Advance Solidity,Amelia Guzman grega,False,
-21: Advance Solidity,Avinash Patel,False,
-21: Advance Solidity,Babatunde Hambolu,False,
-21: Advance Solidity,Billel Loubari,False,
-21: Advance Solidity,Christine Nashashibi,False,
-21: Advance Solidity,David Hori,False,
-21: Advance Solidity,Evan Sadasivan,False,
-21: Advance Solidity,Jeff Brinker,False,
-21: Advance Solidity,John Musgrave,False,
-21: Advance Solidity,John Ryan,False,
-21: Advance Solidity,Justin Leffew,False,
-21: Advance Solidity,kamalnivas balasubramanian,False,
-21: Advance Solidity,Krystle Hokanson,False,
-21: Advance Solidity,Linda Cruz,False,
-21: Advance Solidity,Patricia Rajamanickam,False,
-21: Advance Solidity,Patrick Corr,False,
-21: Advance Solidity,Ramana Challa,False,
-21: Advance Solidity,Santiago Esguerra,False,
-21: Advance Solidity,Shaheed Ghogha,False,
-21: Advance Solidity,Sufyan Shaikh,False,
-21: Advance Solidity,Tyler Ward,False,
-21: Advance Solidity,Vasyl Alba,False,
-21: Advance Solidity,William Weinman,False,
-2: Python,Adedoyin Obasanya,False,
-2: Python,Alyssa Younger,False,
-2: Python,Ameira Khaleq,False,
-2: Python,Amelia Guzman grega,False,
-2: Python,Avinash Patel,False,
-2: Python,Babatunde Hambolu,False,
-2: Python,Billel Loubari,False,
-2: Python,Christine Nashashibi,False,
-2: Python,David Hori,False,
-2: Python,Evan Sadasivan,False,
-2: Python,Jeff Brinker,False,
-2: Python,John Musgrave,False,
-2: Python,John Ryan,False,
-2: Python,Justin Leffew,False,
-2: Python,kamalnivas balasubramanian,False,
-2: Python,Krystle Hokanson,False,
-2: Python,Linda Cruz,False,
-2: Python,Patricia Rajamanickam,False,
-2: Python,Patrick Corr,False,
-2: Python,Ramana Challa,False,
-2: Python,Santiago Esguerra,False,
-2: Python,Shaheed Ghogha,False,
-2: Python,Sufyan Shaikh,False,
-2: Python,Tyler Ward,False,
-2: Python,Vasyl Alba,True,
-2: Python,William Weinman,False,
-4: Pandas,Adedoyin Obasanya,False,
-4: Pandas,Alyssa Younger,False,
-4: Pandas,Ameira Khaleq,False,
-4: Pandas,Amelia Guzman grega,False,
-4: Pandas,Avinash Patel,False,
-4: Pandas,Babatunde Hambolu,False,
-4: Pandas,Billel Loubari,False,
-4: Pandas,Christine Nashashibi,False,
-4: Pandas,David Hori,False,
-4: Pandas,Evan Sadasivan,False,
-4: Pandas,Jeff Brinker,False,
-4: Pandas,John Musgrave,False,
-4: Pandas,John Ryan,False,
-4: Pandas,Justin Leffew,False,
-4: Pandas,kamalnivas balasubramanian,False,
-4: Pandas,Krystle Hokanson,False,
-4: Pandas,Linda Cruz,False,
-4: Pandas,Patricia Rajamanickam,False,
-4: Pandas,Patrick Corr,False,
-4: Pandas,Ramana Challa,False,
-4: Pandas,Santiago Esguerra,False,
-4: Pandas,Shaheed Ghogha,False,
-4: Pandas,Sufyan Shaikh,False,
-4: Pandas,Tyler Ward,False,
-4: Pandas,Vasyl Alba,False,
-4: Pandas,William Weinman,False,
-5: APIs,Adedoyin Obasanya,False,
-5: APIs,Alyssa Younger,False,
-5: APIs,Ameira Khaleq,False,
-5: APIs,Amelia Guzman grega,False,
-5: APIs,Avinash Patel,False,
-5: APIs,Babatunde Hambolu,False,
-5: APIs,Billel Loubari,False,
-5: APIs,Christine Nashashibi,False,
-5: APIs,David Hori,False,
-5: APIs,Evan Sadasivan,False,
-5: APIs,Jeff Brinker,False,
-5: APIs,John Musgrave,False,
-5: APIs,John Ryan,False,
-5: APIs,Justin Leffew,False,
-5: APIs,kamalnivas balasubramanian,False,
-5: APIs,Krystle Hokanson,False,
-5: APIs,Linda Cruz,False,
-5: APIs,Patricia Rajamanickam,False,
-5: APIs,Patrick Corr,False,
-5: APIs,Ramana Challa,False,
-5: APIs,Santiago Esguerra,False,
-5: APIs,Shaheed Ghogha,False,
-5: APIs,Sufyan Shaikh,False,
-5: APIs,Tyler Ward,False,
-5: APIs,Vasyl Alba,False,
-5: APIs,William Weinman,False,
-6: PyViz,Adedoyin Obasanya,False,
-6: PyViz,Alyssa Younger,False,
-6: PyViz,Ameira Khaleq,False,
-6: PyViz,Amelia Guzman grega,False,
-6: PyViz,Avinash Patel,False,
-6: PyViz,Babatunde Hambolu,False,
-6: PyViz,Billel Loubari,False,
-6: PyViz,Christine Nashashibi,False,
-6: PyViz,David Hori,False,
-6: PyViz,Evan Sadasivan,False,
-6: PyViz,Jeff Brinker,False,
-6: PyViz,John Musgrave,False,
-6: PyViz,John Ryan,False,
-6: PyViz,Justin Leffew,False,
-6: PyViz,kamalnivas balasubramanian,False,
-6: PyViz,Krystle Hokanson,False,
-6: PyViz,Linda Cruz,False,
-6: PyViz,Patricia Rajamanickam,False,
-6: PyViz,Patrick Corr,False,
-6: PyViz,Ramana Challa,False,
-6: PyViz,Santiago Esguerra,False,
-6: PyViz,Shaheed Ghogha,False,
-6: PyViz,Sufyan Shaikh,False,
-6: PyViz,Tyler Ward,False,
-6: PyViz,Vasyl Alba,False,
-6: PyViz,William Weinman,False,
-7: SQL,Adedoyin Obasanya,False,
-7: SQL,Alyssa Younger,False,
-7: SQL,Ameira Khaleq,False,
-7: SQL,Amelia Guzman grega,False,
-7: SQL,Avinash Patel,False,
-7: SQL,Babatunde Hambolu,False,
-7: SQL,Billel Loubari,False,
-7: SQL,Christine Nashashibi,False,
-7: SQL,David Hori,False,
-7: SQL,Evan Sadasivan,False,
-7: SQL,Jeff Brinker,False,
-7: SQL,John Musgrave,False,
-7: SQL,John Ryan,False,
-7: SQL,Justin Leffew,False,
-7: SQL,kamalnivas balasubramanian,False,
-7: SQL,Krystle Hokanson,False,
-7: SQL,Linda Cruz,False,
-7: SQL,Patricia Rajamanickam,False,
-7: SQL,Patrick Corr,False,
-7: SQL,Ramana Challa,False,
-7: SQL,Santiago Esguerra,False,
-7: SQL,Shaheed Ghogha,False,
-7: SQL,Sufyan Shaikh,False,
-7: SQL,Tyler Ward,False,
-7: SQL,Vasyl Alba,False,
-7: SQL,William Weinman,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Adedoyin Obasanya,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Alyssa Younger,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Ameira Khaleq,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Amelia Guzman grega,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Avinash Patel,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Babatunde Hambolu,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Billel Loubari,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Christine Nashashibi,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,David Hori,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Evan Sadasivan,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Jeff Brinker,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,John Musgrave,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,John Ryan,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Justin Leffew,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,kamalnivas balasubramanian,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Krystle Hokanson,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Linda Cruz,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Patricia Rajamanickam,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Patrick Corr,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Ramana Challa,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Santiago Esguerra,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Shaheed Ghogha,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Sufyan Shaikh,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Tyler Ward,False,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,Vasyl Alba,True,
-Intro to Career Services: Employer-Ready vs Employer-Competitive,William Weinman,False,
-Milestone: Develop Your Resume,Adedoyin Obasanya,False,
-Milestone: Develop Your Resume,Alyssa Younger,False,
-Milestone: Develop Your Resume,Ameira Khaleq,False,
-Milestone: Develop Your Resume,Amelia Guzman grega,False,
-Milestone: Develop Your Resume,Avinash Patel,False,
-Milestone: Develop Your Resume,Babatunde Hambolu,False,
-Milestone: Develop Your Resume,Billel Loubari,False,
-Milestone: Develop Your Resume,Christine Nashashibi,False,
-Milestone: Develop Your Resume,David Hori,False,
-Milestone: Develop Your Resume,Evan Sadasivan,False,
-Milestone: Develop Your Resume,Jeff Brinker,False,
-Milestone: Develop Your Resume,John Musgrave,False,
-Milestone: Develop Your Resume,John Ryan,False,
-Milestone: Develop Your Resume,Justin Leffew,False,
-Milestone: Develop Your Resume,kamalnivas balasubramanian,False,
-Milestone: Develop Your Resume,Krystle Hokanson,False,
-Milestone: Develop Your Resume,Linda Cruz,False,
-Milestone: Develop Your Resume,Patricia Rajamanickam,False,
-Milestone: Develop Your Resume,Patrick Corr,False,
-Milestone: Develop Your Resume,Ramana Challa,False,
-Milestone: Develop Your Resume,Santiago Esguerra,False,
-Milestone: Develop Your Resume,Shaheed Ghogha,False,
-Milestone: Develop Your Resume,Sufyan Shaikh,False,
-Milestone: Develop Your Resume,Tyler Ward,False,
-Milestone: Develop Your Resume,Vasyl Alba,False,
-Milestone: Develop Your Resume,William Weinman,False,
-Milestone: Employer-Competitive,Adedoyin Obasanya,False,
-Milestone: Employer-Competitive,Alyssa Younger,False,
-Milestone: Employer-Competitive,Ameira Khaleq,False,
-Milestone: Employer-Competitive,Amelia Guzman grega,False,
-Milestone: Employer-Competitive,Avinash Patel,False,
-Milestone: Employer-Competitive,Babatunde Hambolu,False,
-Milestone: Employer-Competitive,Billel Loubari,False,
-Milestone: Employer-Competitive,Christine Nashashibi,False,
-Milestone: Employer-Competitive,David Hori,False,
-Milestone: Employer-Competitive,Evan Sadasivan,False,
-Milestone: Employer-Competitive,Jeff Brinker,False,
-Milestone: Employer-Competitive,John Musgrave,False,
-Milestone: Employer-Competitive,John Ryan,False,
-Milestone: Employer-Competitive,Justin Leffew,False,
-Milestone: Employer-Competitive,kamalnivas balasubramanian,False,
-Milestone: Employer-Competitive,Krystle Hokanson,False,
-Milestone: Employer-Competitive,Linda Cruz,False,
-Milestone: Employer-Competitive,Patricia Rajamanickam,False,
-Milestone: Employer-Competitive,Patrick Corr,False,
-Milestone: Employer-Competitive,Ramana Challa,False,
-Milestone: Employer-Competitive,Santiago Esguerra,False,
-Milestone: Employer-Competitive,Shaheed Ghogha,False,
-Milestone: Employer-Competitive,Sufyan Shaikh,False,
-Milestone: Employer-Competitive,Tyler Ward,False,
-Milestone: Employer-Competitive,Vasyl Alba,False,
-Milestone: Employer-Competitive,William Weinman,False,
-Milestone: Employer-Ready,Adedoyin Obasanya,False,
-Milestone: Employer-Ready,Alyssa Younger,False,
-Milestone: Employer-Ready,Ameira Khaleq,False,
-Milestone: Employer-Ready,Amelia Guzman grega,False,
-Milestone: Employer-Ready,Avinash Patel,False,
-Milestone: Employer-Ready,Babatunde Hambolu,False,
-Milestone: Employer-Ready,Billel Loubari,False,
-Milestone: Employer-Ready,Christine Nashashibi,False,
-Milestone: Employer-Ready,David Hori,False,
-Milestone: Employer-Ready,Evan Sadasivan,False,
-Milestone: Employer-Ready,Jeff Brinker,False,
-Milestone: Employer-Ready,John Musgrave,False,
-Milestone: Employer-Ready,John Ryan,False,
-Milestone: Employer-Ready,Justin Leffew,False,
-Milestone: Employer-Ready,kamalnivas balasubramanian,False,
-Milestone: Employer-Ready,Krystle Hokanson,False,
-Milestone: Employer-Ready,Linda Cruz,False,
-Milestone: Employer-Ready,Patricia Rajamanickam,False,
-Milestone: Employer-Ready,Patrick Corr,False,
-Milestone: Employer-Ready,Ramana Challa,False,
-Milestone: Employer-Ready,Santiago Esguerra,False,
-Milestone: Employer-Ready,Shaheed Ghogha,False,
-Milestone: Employer-Ready,Sufyan Shaikh,False,
-Milestone: Employer-Ready,Tyler Ward,False,
-Milestone: Employer-Ready,Vasyl Alba,False,
-Milestone: Employer-Ready,William Weinman,False,
-Milestone: Pave Your Pathway,Adedoyin Obasanya,False,
-Milestone: Pave Your Pathway,Alyssa Younger,False,
-Milestone: Pave Your Pathway,Ameira Khaleq,False,
-Milestone: Pave Your Pathway,Amelia Guzman grega,False,
-Milestone: Pave Your Pathway,Avinash Patel,False,
-Milestone: Pave Your Pathway,Babatunde Hambolu,False,
-Milestone: Pave Your Pathway,Billel Loubari,False,
-Milestone: Pave Your Pathway,Christine Nashashibi,False,
-Milestone: Pave Your Pathway,David Hori,False,
-Milestone: Pave Your Pathway,Evan Sadasivan,False,
-Milestone: Pave Your Pathway,Jeff Brinker,False,
-Milestone: Pave Your Pathway,John Musgrave,False,
-Milestone: Pave Your Pathway,John Ryan,False,
-Milestone: Pave Your Pathway,Justin Leffew,False,
-Milestone: Pave Your Pathway,kamalnivas balasubramanian,False,
-Milestone: Pave Your Pathway,Krystle Hokanson,False,
-Milestone: Pave Your Pathway,Linda Cruz,False,
-Milestone: Pave Your Pathway,Patricia Rajamanickam,False,
-Milestone: Pave Your Pathway,Patrick Corr,False,
-Milestone: Pave Your Pathway,Ramana Challa,False,
-Milestone: Pave Your Pathway,Santiago Esguerra,False,
-Milestone: Pave Your Pathway,Shaheed Ghogha,False,
-Milestone: Pave Your Pathway,Sufyan Shaikh,False,
-Milestone: Pave Your Pathway,Tyler Ward,False,
-Milestone: Pave Your Pathway,Vasyl Alba,False,
-Milestone: Pave Your Pathway,William Weinman,False,
-Milestone: Polish Your Online Presence,Adedoyin Obasanya,False,
-Milestone: Polish Your Online Presence,Alyssa Younger,False,
-Milestone: Polish Your Online Presence,Ameira Khaleq,False,
-Milestone: Polish Your Online Presence,Amelia Guzman grega,False,
-Milestone: Polish Your Online Presence,Avinash Patel,False,
-Milestone: Polish Your Online Presence,Babatunde Hambolu,False,
-Milestone: Polish Your Online Presence,Billel Loubari,False,
-Milestone: Polish Your Online Presence,Christine Nashashibi,False,
-Milestone: Polish Your Online Presence,David Hori,False,
-Milestone: Polish Your Online Presence,Evan Sadasivan,False,
-Milestone: Polish Your Online Presence,Jeff Brinker,False,
-Milestone: Polish Your Online Presence,John Musgrave,False,
-Milestone: Polish Your Online Presence,John Ryan,False,
-Milestone: Polish Your Online Presence,Justin Leffew,False,
-Milestone: Polish Your Online Presence,kamalnivas balasubramanian,False,
-Milestone: Polish Your Online Presence,Krystle Hokanson,False,
-Milestone: Polish Your Online Presence,Linda Cruz,False,
-Milestone: Polish Your Online Presence,Patricia Rajamanickam,False,
-Milestone: Polish Your Online Presence,Patrick Corr,False,
-Milestone: Polish Your Online Presence,Ramana Challa,False,
-Milestone: Polish Your Online Presence,Santiago Esguerra,False,
-Milestone: Polish Your Online Presence,Shaheed Ghogha,False,
-Milestone: Polish Your Online Presence,Sufyan Shaikh,False,
-Milestone: Polish Your Online Presence,Tyler Ward,False,
-Milestone: Polish Your Online Presence,Vasyl Alba,False,
-Milestone: Polish Your Online Presence,William Weinman,False,
-Project 1,Adedoyin Obasanya,False,
-Project 1,Alyssa Younger,False,
-Project 1,Ameira Khaleq,False,
-Project 1,Amelia Guzman grega,False,
-Project 1,Avinash Patel,False,
-Project 1,Babatunde Hambolu,False,
-Project 1,Billel Loubari,False,
-Project 1,Christine Nashashibi,False,
-Project 1,David Hori,False,
-Project 1,Evan Sadasivan,False,
-Project 1,Jeff Brinker,False,
-Project 1,John Musgrave,False,
-Project 1,John Ryan,False,
-Project 1,Justin Leffew,False,
-Project 1,kamalnivas balasubramanian,False,
-Project 1,Krystle Hokanson,False,
-Project 1,Linda Cruz,False,
-Project 1,Patricia Rajamanickam,False,
-Project 1,Patrick Corr,False,
-Project 1,Ramana Challa,False,
-Project 1,Santiago Esguerra,False,
-Project 1,Shaheed Ghogha,False,
-Project 1,Sufyan Shaikh,False,
-Project 1,Tyler Ward,False,
-Project 1,Vasyl Alba,False,
-Project 1,William Weinman,False,
-Project 2,Adedoyin Obasanya,False,
-Project 2,Alyssa Younger,False,
-Project 2,Ameira Khaleq,False,
-Project 2,Amelia Guzman grega,False,
-Project 2,Avinash Patel,False,
-Project 2,Babatunde Hambolu,False,
-Project 2,Billel Loubari,False,
-Project 2,Christine Nashashibi,False,
-Project 2,David Hori,False,
-Project 2,Evan Sadasivan,False,
-Project 2,Jeff Brinker,False,
-Project 2,John Musgrave,False,
-Project 2,John Ryan,False,
-Project 2,Justin Leffew,False,
-Project 2,kamalnivas balasubramanian,False,
-Project 2,Krystle Hokanson,False,
-Project 2,Linda Cruz,False,
-Project 2,Patricia Rajamanickam,False,
-Project 2,Patrick Corr,False,
-Project 2,Ramana Challa,False,
-Project 2,Santiago Esguerra,False,
-Project 2,Shaheed Ghogha,False,
-Project 2,Sufyan Shaikh,False,
-Project 2,Tyler Ward,False,
-Project 2,Vasyl Alba,False,
-Project 2,William Weinman,False,
-Project 3,Adedoyin Obasanya,False,
-Project 3,Alyssa Younger,False,
-Project 3,Ameira Khaleq,False,
-Project 3,Amelia Guzman grega,False,
-Project 3,Avinash Patel,False,
-Project 3,Babatunde Hambolu,False,
-Project 3,Billel Loubari,False,
-Project 3,Christine Nashashibi,False,
-Project 3,David Hori,False,
-Project 3,Evan Sadasivan,False,
-Project 3,Jeff Brinker,False,
-Project 3,John Musgrave,False,
-Project 3,John Ryan,False,
-Project 3,Justin Leffew,False,
-Project 3,kamalnivas balasubramanian,False,
-Project 3,Krystle Hokanson,False,
-Project 3,Linda Cruz,False,
-Project 3,Patricia Rajamanickam,False,
-Project 3,Patrick Corr,False,
-Project 3,Ramana Challa,False,
-Project 3,Santiago Esguerra,False,
-Project 3,Shaheed Ghogha,False,
-Project 3,Sufyan Shaikh,False,
-Project 3,Tyler Ward,False,
-Project 3,Vasyl Alba,False,
-Project 3,William Weinman,False,
+0: FinTech Prework,Aaron Price,True,A
+0: FinTech Prework,Alex Mack,True,A+
+0: FinTech Prework,Alexis Santoyo Torres,True,A+
+0: FinTech Prework,Andrew Brown,True,A
+0: FinTech Prework,Antonio Guerrero,True,A+
+0: FinTech Prework,Anurag Reddy,True,B-
+0: FinTech Prework,Brandon White,True,A
+0: FinTech Prework,Ghulam Bhatti,True,A+
+0: FinTech Prework,Giancarlo Ferrara,True,A+
+0: FinTech Prework,Gregory Screen,False,
+0: FinTech Prework,Ian Schucart,True,A+
+0: FinTech Prework,Jacob Teele,True,A
+0: FinTech Prework,Jethro Aderele,False,
+0: FinTech Prework,Joe Reiff,False,
+0: FinTech Prework,John Szostak,False,
+0: FinTech Prework,Manish Kumar,False,
+0: FinTech Prework,Mark Campbell,True,A
+0: FinTech Prework,Odette Popko,True,A+
+0: FinTech Prework,Paul Dowty,False,
+0: FinTech Prework,Robert Atkins,True,A-
+0: FinTech Prework,Romil Parekh,True,A
+0: FinTech Prework,Tara Mcdaniel,True,A+
+0: FinTech Prework,Tyler White,False,
+0: FinTech Prework,Victor Ogbebor,False,
+10: Time Series Analysis,Aaron Price,True,B+
+10: Time Series Analysis,Alex Mack,True,A
+10: Time Series Analysis,Alexis Santoyo Torres,True,A+
+10: Time Series Analysis,Andrew Brown,True,A+
+10: Time Series Analysis,Antonio Guerrero,True,A+
+10: Time Series Analysis,Anurag Reddy,True,A-
+10: Time Series Analysis,Brandon White,True,A-
+10: Time Series Analysis,Ghulam Bhatti,True,A+
+10: Time Series Analysis,Giancarlo Ferrara,False,
+10: Time Series Analysis,Gregory Screen,False,
+10: Time Series Analysis,Ian Schucart,False,
+10: Time Series Analysis,Jacob Teele,True,A+
+10: Time Series Analysis,Jethro Aderele,True,A+
+10: Time Series Analysis,Joe Reiff,False,
+10: Time Series Analysis,John Szostak,False,
+10: Time Series Analysis,Manish Kumar,True,A+
+10: Time Series Analysis,Mark Campbell,True,A+
+10: Time Series Analysis,Odette Popko,True,A+
+10: Time Series Analysis,Paul Dowty,False,
+10: Time Series Analysis,Robert Atkins,True,A+
+10: Time Series Analysis,Romil Parekh,True,A+
+10: Time Series Analysis,Tara Mcdaniel,False,
+10: Time Series Analysis,Tyler White,True,A-
+10: Time Series Analysis,Victor Ogbebor,False,
+11: Classification,Aaron Price,True,D+
+11: Classification,Alex Mack,True,A+
+11: Classification,Alexis Santoyo Torres,True,B+
+11: Classification,Andrew Brown,True,A+
+11: Classification,Antonio Guerrero,True,A+
+11: Classification,Anurag Reddy,True,C
+11: Classification,Brandon White,True,B
+11: Classification,Ghulam Bhatti,True,A-
+11: Classification,Giancarlo Ferrara,False,
+11: Classification,Gregory Screen,False,
+11: Classification,Ian Schucart,False,
+11: Classification,Jacob Teele,True,A+
+11: Classification,Jethro Aderele,True,A
+11: Classification,Joe Reiff,False,
+11: Classification,John Szostak,False,
+11: Classification,Manish Kumar,True,A+
+11: Classification,Mark Campbell,True,A+
+11: Classification,Odette Popko,True,A-
+11: Classification,Paul Dowty,False,
+11: Classification,Robert Atkins,True,A+
+11: Classification,Romil Parekh,True,A+
+11: Classification,Tara Mcdaniel,False,
+11: Classification,Tyler White,True,C
+11: Classification,Victor Ogbebor,False,
+12: Natural Language Processing,Aaron Price,True,C
+12: Natural Language Processing,Alex Mack,True,A
+12: Natural Language Processing,Alexis Santoyo Torres,True,A+
+12: Natural Language Processing,Andrew Brown,True,A+
+12: Natural Language Processing,Antonio Guerrero,True,A+
+12: Natural Language Processing,Anurag Reddy,True,A
+12: Natural Language Processing,Brandon White,False,
+12: Natural Language Processing,Ghulam Bhatti,True,A+
+12: Natural Language Processing,Giancarlo Ferrara,False,
+12: Natural Language Processing,Gregory Screen,False,
+12: Natural Language Processing,Ian Schucart,False,
+12: Natural Language Processing,Jacob Teele,True,A+
+12: Natural Language Processing,Jethro Aderele,True,A+
+12: Natural Language Processing,Joe Reiff,False,
+12: Natural Language Processing,John Szostak,False,
+12: Natural Language Processing,Manish Kumar,True,A+
+12: Natural Language Processing,Mark Campbell,True,A+
+12: Natural Language Processing,Odette Popko,True,A+
+12: Natural Language Processing,Paul Dowty,False,
+12: Natural Language Processing,Robert Atkins,True,A+
+12: Natural Language Processing,Romil Parekh,True,A+
+12: Natural Language Processing,Tara Mcdaniel,False,
+12: Natural Language Processing,Tyler White,False,
+12: Natural Language Processing,Victor Ogbebor,False,
+13: AWS-Cloud,Aaron Price,True,A
+13: AWS-Cloud,Alex Mack,True,A
+13: AWS-Cloud,Alexis Santoyo Torres,True,B+
+13: AWS-Cloud,Andrew Brown,True,D+
+13: AWS-Cloud,Antonio Guerrero,True,A-
+13: AWS-Cloud,Anurag Reddy,True,A
+13: AWS-Cloud,Brandon White,True,A-
+13: AWS-Cloud,Ghulam Bhatti,True,A+
+13: AWS-Cloud,Giancarlo Ferrara,False,
+13: AWS-Cloud,Gregory Screen,False,
+13: AWS-Cloud,Ian Schucart,False,
+13: AWS-Cloud,Jacob Teele,True,A
+13: AWS-Cloud,Jethro Aderele,True,A-
+13: AWS-Cloud,Joe Reiff,False,
+13: AWS-Cloud,John Szostak,False,
+13: AWS-Cloud,Manish Kumar,True,A
+13: AWS-Cloud,Mark Campbell,True,A
+13: AWS-Cloud,Odette Popko,True,A+
+13: AWS-Cloud,Paul Dowty,False,
+13: AWS-Cloud,Robert Atkins,True,A+
+13: AWS-Cloud,Romil Parekh,True,A
+13: AWS-Cloud,Tara Mcdaniel,False,
+13: AWS-Cloud,Tyler White,True,D
+13: AWS-Cloud,Victor Ogbebor,False,
+14: Deep Learning,Aaron Price,True,A+
+14: Deep Learning,Alex Mack,True,A+
+14: Deep Learning,Alexis Santoyo Torres,True,A+
+14: Deep Learning,Andrew Brown,True,A+
+14: Deep Learning,Antonio Guerrero,True,A+
+14: Deep Learning,Anurag Reddy,True,A
+14: Deep Learning,Brandon White,True,C
+14: Deep Learning,Ghulam Bhatti,True,A+
+14: Deep Learning,Giancarlo Ferrara,False,
+14: Deep Learning,Gregory Screen,False,
+14: Deep Learning,Ian Schucart,False,
+14: Deep Learning,Jacob Teele,True,A+
+14: Deep Learning,Jethro Aderele,True,A+
+14: Deep Learning,Joe Reiff,False,
+14: Deep Learning,John Szostak,False,
+14: Deep Learning,Manish Kumar,True,A
+14: Deep Learning,Mark Campbell,True,A+
+14: Deep Learning,Odette Popko,True,A+
+14: Deep Learning,Paul Dowty,False,
+14: Deep Learning,Robert Atkins,True,A
+14: Deep Learning,Romil Parekh,True,A+
+14: Deep Learning,Tara Mcdaniel,False,
+14: Deep Learning,Tyler White,True,A-
+14: Deep Learning,Victor Ogbebor,False,
+18: Blockchain Building Blocks,Aaron Price,False,
+18: Blockchain Building Blocks,Alex Mack,True,B+
+18: Blockchain Building Blocks,Alexis Santoyo Torres,True,D
+18: Blockchain Building Blocks,Andrew Brown,True,A+
+18: Blockchain Building Blocks,Antonio Guerrero,True,A+
+18: Blockchain Building Blocks,Anurag Reddy,True,B+
+18: Blockchain Building Blocks,Brandon White,False,
+18: Blockchain Building Blocks,Ghulam Bhatti,True,A+
+18: Blockchain Building Blocks,Giancarlo Ferrara,False,
+18: Blockchain Building Blocks,Gregory Screen,False,
+18: Blockchain Building Blocks,Ian Schucart,False,
+18: Blockchain Building Blocks,Jacob Teele,True,A+
+18: Blockchain Building Blocks,Jethro Aderele,True,C-
+18: Blockchain Building Blocks,Joe Reiff,False,
+18: Blockchain Building Blocks,John Szostak,False,
+18: Blockchain Building Blocks,Manish Kumar,True,D
+18: Blockchain Building Blocks,Mark Campbell,True,A+
+18: Blockchain Building Blocks,Odette Popko,True,A+
+18: Blockchain Building Blocks,Paul Dowty,False,
+18: Blockchain Building Blocks,Robert Atkins,False,
+18: Blockchain Building Blocks,Romil Parekh,True,A+
+18: Blockchain Building Blocks,Tara Mcdaniel,False,
+18: Blockchain Building Blocks,Tyler White,False,
+18: Blockchain Building Blocks,Victor Ogbebor,False,
+19: Blockchain with Python,Aaron Price,False,
+19: Blockchain with Python,Alex Mack,True,C-
+19: Blockchain with Python,Alexis Santoyo Torres,False,
+19: Blockchain with Python,Andrew Brown,False,
+19: Blockchain with Python,Antonio Guerrero,True,A+
+19: Blockchain with Python,Anurag Reddy,True,B+
+19: Blockchain with Python,Brandon White,True,B
+19: Blockchain with Python,Ghulam Bhatti,True,A+
+19: Blockchain with Python,Giancarlo Ferrara,False,
+19: Blockchain with Python,Gregory Screen,False,
+19: Blockchain with Python,Ian Schucart,False,
+19: Blockchain with Python,Jacob Teele,False,
+19: Blockchain with Python,Jethro Aderele,True,C-
+19: Blockchain with Python,Joe Reiff,False,
+19: Blockchain with Python,John Szostak,False,
+19: Blockchain with Python,Manish Kumar,False,
+19: Blockchain with Python,Mark Campbell,True,A
+19: Blockchain with Python,Odette Popko,True,A
+19: Blockchain with Python,Paul Dowty,False,
+19: Blockchain with Python,Robert Atkins,True,B-
+19: Blockchain with Python,Romil Parekh,False,
+19: Blockchain with Python,Tara Mcdaniel,False,
+19: Blockchain with Python,Tyler White,True,A+
+19: Blockchain with Python,Victor Ogbebor,False,
+1: Intro to Finance,Aaron Price,True,B
+1: Intro to Finance,Alex Mack,True,A
+1: Intro to Finance,Alexis Santoyo Torres,True,A+
+1: Intro to Finance,Andrew Brown,True,A+
+1: Intro to Finance,Antonio Guerrero,True,A+
+1: Intro to Finance,Anurag Reddy,True,A+
+1: Intro to Finance,Brandon White,True,B+
+1: Intro to Finance,Ghulam Bhatti,True,A+
+1: Intro to Finance,Giancarlo Ferrara,True,A+
+1: Intro to Finance,Gregory Screen,True,A
+1: Intro to Finance,Ian Schucart,False,
+1: Intro to Finance,Jacob Teele,True,A+
+1: Intro to Finance,Jethro Aderele,False,
+1: Intro to Finance,Joe Reiff,False,
+1: Intro to Finance,John Szostak,False,
+1: Intro to Finance,Manish Kumar,True,A
+1: Intro to Finance,Mark Campbell,True,A
+1: Intro to Finance,Odette Popko,True,A+
+1: Intro to Finance,Paul Dowty,False,
+1: Intro to Finance,Robert Atkins,True,A+
+1: Intro to Finance,Romil Parekh,True,A+
+1: Intro to Finance,Tara Mcdaniel,False,
+1: Intro to Finance,Tyler White,True,A+
+1: Intro to Finance,Victor Ogbebor,True,A
+20: Smart Contracts with Solidity,Aaron Price,True,A-
+20: Smart Contracts with Solidity,Alex Mack,False,
+20: Smart Contracts with Solidity,Alexis Santoyo Torres,True,A+
+20: Smart Contracts with Solidity,Andrew Brown,True,B+
+20: Smart Contracts with Solidity,Antonio Guerrero,False,
+20: Smart Contracts with Solidity,Anurag Reddy,False,
+20: Smart Contracts with Solidity,Brandon White,True,D-
+20: Smart Contracts with Solidity,Ghulam Bhatti,True,A
+20: Smart Contracts with Solidity,Giancarlo Ferrara,False,
+20: Smart Contracts with Solidity,Gregory Screen,False,
+20: Smart Contracts with Solidity,Ian Schucart,False,
+20: Smart Contracts with Solidity,Jacob Teele,True,A
+20: Smart Contracts with Solidity,Jethro Aderele,True,A+
+20: Smart Contracts with Solidity,Joe Reiff,False,
+20: Smart Contracts with Solidity,John Szostak,False,
+20: Smart Contracts with Solidity,Manish Kumar,True,A-
+20: Smart Contracts with Solidity,Mark Campbell,False,
+20: Smart Contracts with Solidity,Odette Popko,True,A
+20: Smart Contracts with Solidity,Paul Dowty,False,
+20: Smart Contracts with Solidity,Robert Atkins,True,A+
+20: Smart Contracts with Solidity,Romil Parekh,True,A+
+20: Smart Contracts with Solidity,Tara Mcdaniel,False,
+20: Smart Contracts with Solidity,Tyler White,True,A-
+20: Smart Contracts with Solidity,Victor Ogbebor,False,
+21: Advance Solidity,Aaron Price,True,A+
+21: Advance Solidity,Alex Mack,False,
+21: Advance Solidity,Alexis Santoyo Torres,False,
+21: Advance Solidity,Andrew Brown,True,A+
+21: Advance Solidity,Antonio Guerrero,False,
+21: Advance Solidity,Anurag Reddy,False,
+21: Advance Solidity,Brandon White,True,C-
+21: Advance Solidity,Ghulam Bhatti,False,
+21: Advance Solidity,Giancarlo Ferrara,False,
+21: Advance Solidity,Gregory Screen,False,
+21: Advance Solidity,Ian Schucart,False,
+21: Advance Solidity,Jacob Teele,True,C-
+21: Advance Solidity,Jethro Aderele,True,A+
+21: Advance Solidity,Joe Reiff,False,
+21: Advance Solidity,John Szostak,False,
+21: Advance Solidity,Manish Kumar,False,
+21: Advance Solidity,Mark Campbell,False,
+21: Advance Solidity,Odette Popko,False,
+21: Advance Solidity,Paul Dowty,False,
+21: Advance Solidity,Robert Atkins,False,
+21: Advance Solidity,Romil Parekh,False,
+21: Advance Solidity,Tara Mcdaniel,False,
+21: Advance Solidity,Tyler White,True,A-
+21: Advance Solidity,Victor Ogbebor,False,
+22: Enabling DeFi With Blockchain,Aaron Price,False,
+22: Enabling DeFi With Blockchain,Alex Mack,False,
+22: Enabling DeFi With Blockchain,Alexis Santoyo Torres,False,
+22: Enabling DeFi With Blockchain,Andrew Brown,False,
+22: Enabling DeFi With Blockchain,Antonio Guerrero,False,
+22: Enabling DeFi With Blockchain,Anurag Reddy,False,
+22: Enabling DeFi With Blockchain,Brandon White,True,B
+22: Enabling DeFi With Blockchain,Ghulam Bhatti,False,
+22: Enabling DeFi With Blockchain,Giancarlo Ferrara,False,
+22: Enabling DeFi With Blockchain,Gregory Screen,False,
+22: Enabling DeFi With Blockchain,Ian Schucart,False,
+22: Enabling DeFi With Blockchain,Jacob Teele,False,
+22: Enabling DeFi With Blockchain,Jethro Aderele,False,
+22: Enabling DeFi With Blockchain,Joe Reiff,False,
+22: Enabling DeFi With Blockchain,John Szostak,False,
+22: Enabling DeFi With Blockchain,Manish Kumar,False,
+22: Enabling DeFi With Blockchain,Mark Campbell,False,
+22: Enabling DeFi With Blockchain,Odette Popko,False,
+22: Enabling DeFi With Blockchain,Paul Dowty,False,
+22: Enabling DeFi With Blockchain,Robert Atkins,False,
+22: Enabling DeFi With Blockchain,Romil Parekh,False,
+22: Enabling DeFi With Blockchain,Tara Mcdaniel,False,
+22: Enabling DeFi With Blockchain,Tyler White,True,A+
+22: Enabling DeFi With Blockchain,Victor Ogbebor,False,
+2: Python,Aaron Price,True,A+
+2: Python,Alex Mack,True,A+
+2: Python,Alexis Santoyo Torres,True,B-
+2: Python,Andrew Brown,True,A
+2: Python,Antonio Guerrero,True,A+
+2: Python,Anurag Reddy,True,B-
+2: Python,Brandon White,True,D
+2: Python,Ghulam Bhatti,True,A+
+2: Python,Giancarlo Ferrara,True,C-
+2: Python,Gregory Screen,False,
+2: Python,Ian Schucart,False,
+2: Python,Jacob Teele,True,A
+2: Python,Jethro Aderele,False,
+2: Python,Joe Reiff,True,A-
+2: Python,John Szostak,False,
+2: Python,Manish Kumar,True,A
+2: Python,Mark Campbell,True,A+
+2: Python,Odette Popko,True,A+
+2: Python,Paul Dowty,False,
+2: Python,Robert Atkins,True,A-
+2: Python,Romil Parekh,True,A+
+2: Python,Tara Mcdaniel,False,
+2: Python,Tyler White,True,D
+2: Python,Victor Ogbebor,False,
+4: Pandas,Aaron Price,True,A+
+4: Pandas,Alex Mack,True,A
+4: Pandas,Alexis Santoyo Torres,True,A
+4: Pandas,Andrew Brown,True,A-
+4: Pandas,Antonio Guerrero,True,A
+4: Pandas,Anurag Reddy,True,A-
+4: Pandas,Brandon White,True,D-
+4: Pandas,Ghulam Bhatti,True,A+
+4: Pandas,Giancarlo Ferrara,True,F
+4: Pandas,Gregory Screen,False,
+4: Pandas,Ian Schucart,False,
+4: Pandas,Jacob Teele,True,A
+4: Pandas,Jethro Aderele,True,B
+4: Pandas,Joe Reiff,False,
+4: Pandas,John Szostak,False,
+4: Pandas,Manish Kumar,True,A-
+4: Pandas,Mark Campbell,True,A+
+4: Pandas,Odette Popko,True,A+
+4: Pandas,Paul Dowty,False,
+4: Pandas,Robert Atkins,True,B-
+4: Pandas,Romil Parekh,True,A-
+4: Pandas,Tara Mcdaniel,False,
+4: Pandas,Tyler White,True,A
+4: Pandas,Victor Ogbebor,True,D
+5: APIs,Aaron Price,True,A+
+5: APIs,Alex Mack,True,A+
+5: APIs,Alexis Santoyo Torres,True,A
+5: APIs,Andrew Brown,True,A-
+5: APIs,Antonio Guerrero,True,A+
+5: APIs,Anurag Reddy,True,B
+5: APIs,Brandon White,True,A-
+5: APIs,Ghulam Bhatti,True,A+
+5: APIs,Giancarlo Ferrara,True,I
+5: APIs,Gregory Screen,False,
+5: APIs,Ian Schucart,False,
+5: APIs,Jacob Teele,True,A+
+5: APIs,Jethro Aderele,True,A+
+5: APIs,Joe Reiff,False,
+5: APIs,John Szostak,False,
+5: APIs,Manish Kumar,True,A+
+5: APIs,Mark Campbell,True,A+
+5: APIs,Odette Popko,True,A+
+5: APIs,Paul Dowty,False,
+5: APIs,Robert Atkins,True,A
+5: APIs,Romil Parekh,True,A+
+5: APIs,Tara Mcdaniel,False,
+5: APIs,Tyler White,True,A-
+5: APIs,Victor Ogbebor,False,
+6: PyViz,Aaron Price,True,A+
+6: PyViz,Alex Mack,True,A
+6: PyViz,Alexis Santoyo Torres,True,A+
+6: PyViz,Andrew Brown,True,B
+6: PyViz,Antonio Guerrero,True,A+
+6: PyViz,Anurag Reddy,True,A
+6: PyViz,Brandon White,True,A+
+6: PyViz,Ghulam Bhatti,True,A+
+6: PyViz,Giancarlo Ferrara,False,
+6: PyViz,Gregory Screen,False,
+6: PyViz,Ian Schucart,False,
+6: PyViz,Jacob Teele,True,B-
+6: PyViz,Jethro Aderele,True,B-
+6: PyViz,Joe Reiff,False,
+6: PyViz,John Szostak,False,
+6: PyViz,Manish Kumar,True,B-
+6: PyViz,Mark Campbell,True,A+
+6: PyViz,Odette Popko,True,A+
+6: PyViz,Paul Dowty,False,
+6: PyViz,Robert Atkins,True,C-
+6: PyViz,Romil Parekh,True,A+
+6: PyViz,Tara Mcdaniel,False,
+6: PyViz,Tyler White,True,A+
+6: PyViz,Victor Ogbebor,False,
+7: SQL,Aaron Price,False,
+7: SQL,Alex Mack,False,
+7: SQL,Alexis Santoyo Torres,False,
+7: SQL,Andrew Brown,False,
+7: SQL,Antonio Guerrero,False,
+7: SQL,Anurag Reddy,False,
+7: SQL,Brandon White,False,
+7: SQL,Ghulam Bhatti,True,A+
+7: SQL,Giancarlo Ferrara,False,
+7: SQL,Gregory Screen,False,
+7: SQL,Ian Schucart,False,
+7: SQL,Jacob Teele,False,
+7: SQL,Jethro Aderele,False,
+7: SQL,Joe Reiff,False,
+7: SQL,John Szostak,False,
+7: SQL,Manish Kumar,False,
+7: SQL,Mark Campbell,True,A-
+7: SQL,Odette Popko,False,
+7: SQL,Paul Dowty,False,
+7: SQL,Robert Atkins,False,
+7: SQL,Romil Parekh,True,A+
+7: SQL,Tara Mcdaniel,False,
+7: SQL,Tyler White,False,
+7: SQL,Victor Ogbebor,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Aaron Price,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Alex Mack,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Alexis Santoyo Torres,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Andrew Brown,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Antonio Guerrero,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Anurag Reddy,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Brandon White,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Ghulam Bhatti,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Giancarlo Ferrara,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Gregory Screen,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Ian Schucart,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Jacob Teele,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Jethro Aderele,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Joe Reiff,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,John Szostak,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Manish Kumar,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Mark Campbell,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Odette Popko,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Paul Dowty,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Robert Atkins,True,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Romil Parekh,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Tara Mcdaniel,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Tyler White,False,
+Intro to Career Services: Employer-Ready vs Employer-Competitive,Victor Ogbebor,False,
+Milestone: Develop Your Resume,Aaron Price,True,
+Milestone: Develop Your Resume,Alex Mack,True,
+Milestone: Develop Your Resume,Alexis Santoyo Torres,False,
+Milestone: Develop Your Resume,Andrew Brown,True,
+Milestone: Develop Your Resume,Antonio Guerrero,False,
+Milestone: Develop Your Resume,Anurag Reddy,False,
+Milestone: Develop Your Resume,Brandon White,False,
+Milestone: Develop Your Resume,Ghulam Bhatti,True,
+Milestone: Develop Your Resume,Giancarlo Ferrara,False,
+Milestone: Develop Your Resume,Gregory Screen,False,
+Milestone: Develop Your Resume,Ian Schucart,False,
+Milestone: Develop Your Resume,Jacob Teele,True,
+Milestone: Develop Your Resume,Jethro Aderele,False,
+Milestone: Develop Your Resume,Joe Reiff,False,
+Milestone: Develop Your Resume,John Szostak,False,
+Milestone: Develop Your Resume,Manish Kumar,False,
+Milestone: Develop Your Resume,Mark Campbell,False,
+Milestone: Develop Your Resume,Odette Popko,False,
+Milestone: Develop Your Resume,Paul Dowty,False,
+Milestone: Develop Your Resume,Robert Atkins,True,
+Milestone: Develop Your Resume,Romil Parekh,True,
+Milestone: Develop Your Resume,Tara Mcdaniel,False,
+Milestone: Develop Your Resume,Tyler White,False,
+Milestone: Develop Your Resume,Victor Ogbebor,False,
+Milestone: Employer-Competitive,Aaron Price,False,
+Milestone: Employer-Competitive,Alex Mack,False,
+Milestone: Employer-Competitive,Alexis Santoyo Torres,False,
+Milestone: Employer-Competitive,Andrew Brown,False,
+Milestone: Employer-Competitive,Antonio Guerrero,False,
+Milestone: Employer-Competitive,Anurag Reddy,False,
+Milestone: Employer-Competitive,Brandon White,False,
+Milestone: Employer-Competitive,Ghulam Bhatti,True,
+Milestone: Employer-Competitive,Giancarlo Ferrara,False,
+Milestone: Employer-Competitive,Gregory Screen,False,
+Milestone: Employer-Competitive,Ian Schucart,False,
+Milestone: Employer-Competitive,Jacob Teele,False,
+Milestone: Employer-Competitive,Jethro Aderele,False,
+Milestone: Employer-Competitive,Joe Reiff,False,
+Milestone: Employer-Competitive,John Szostak,False,
+Milestone: Employer-Competitive,Manish Kumar,False,
+Milestone: Employer-Competitive,Mark Campbell,False,
+Milestone: Employer-Competitive,Odette Popko,False,
+Milestone: Employer-Competitive,Paul Dowty,False,
+Milestone: Employer-Competitive,Robert Atkins,False,
+Milestone: Employer-Competitive,Romil Parekh,False,
+Milestone: Employer-Competitive,Tara Mcdaniel,False,
+Milestone: Employer-Competitive,Tyler White,False,
+Milestone: Employer-Competitive,Victor Ogbebor,False,
+Milestone: Employer-Ready,Aaron Price,False,
+Milestone: Employer-Ready,Alex Mack,False,
+Milestone: Employer-Ready,Alexis Santoyo Torres,False,
+Milestone: Employer-Ready,Andrew Brown,False,
+Milestone: Employer-Ready,Antonio Guerrero,False,
+Milestone: Employer-Ready,Anurag Reddy,False,
+Milestone: Employer-Ready,Brandon White,False,
+Milestone: Employer-Ready,Ghulam Bhatti,True,
+Milestone: Employer-Ready,Giancarlo Ferrara,False,
+Milestone: Employer-Ready,Gregory Screen,False,
+Milestone: Employer-Ready,Ian Schucart,False,
+Milestone: Employer-Ready,Jacob Teele,True,
+Milestone: Employer-Ready,Jethro Aderele,False,
+Milestone: Employer-Ready,Joe Reiff,False,
+Milestone: Employer-Ready,John Szostak,False,
+Milestone: Employer-Ready,Manish Kumar,False,
+Milestone: Employer-Ready,Mark Campbell,False,
+Milestone: Employer-Ready,Odette Popko,False,
+Milestone: Employer-Ready,Paul Dowty,False,
+Milestone: Employer-Ready,Robert Atkins,False,
+Milestone: Employer-Ready,Romil Parekh,False,
+Milestone: Employer-Ready,Tara Mcdaniel,False,
+Milestone: Employer-Ready,Tyler White,False,
+Milestone: Employer-Ready,Victor Ogbebor,False,
+Milestone: Pave Your Pathway,Aaron Price,False,
+Milestone: Pave Your Pathway,Alex Mack,False,
+Milestone: Pave Your Pathway,Alexis Santoyo Torres,False,
+Milestone: Pave Your Pathway,Andrew Brown,True,
+Milestone: Pave Your Pathway,Antonio Guerrero,False,
+Milestone: Pave Your Pathway,Anurag Reddy,False,
+Milestone: Pave Your Pathway,Brandon White,False,
+Milestone: Pave Your Pathway,Ghulam Bhatti,False,
+Milestone: Pave Your Pathway,Giancarlo Ferrara,False,
+Milestone: Pave Your Pathway,Gregory Screen,False,
+Milestone: Pave Your Pathway,Ian Schucart,False,
+Milestone: Pave Your Pathway,Jacob Teele,False,
+Milestone: Pave Your Pathway,Jethro Aderele,False,
+Milestone: Pave Your Pathway,Joe Reiff,False,
+Milestone: Pave Your Pathway,John Szostak,False,
+Milestone: Pave Your Pathway,Manish Kumar,False,
+Milestone: Pave Your Pathway,Mark Campbell,False,
+Milestone: Pave Your Pathway,Odette Popko,False,
+Milestone: Pave Your Pathway,Paul Dowty,False,
+Milestone: Pave Your Pathway,Robert Atkins,False,
+Milestone: Pave Your Pathway,Romil Parekh,False,
+Milestone: Pave Your Pathway,Tara Mcdaniel,False,
+Milestone: Pave Your Pathway,Tyler White,False,
+Milestone: Pave Your Pathway,Victor Ogbebor,False,
+Milestone: Polish Your Online Presence,Aaron Price,False,
+Milestone: Polish Your Online Presence,Alex Mack,False,
+Milestone: Polish Your Online Presence,Alexis Santoyo Torres,False,
+Milestone: Polish Your Online Presence,Andrew Brown,True,
+Milestone: Polish Your Online Presence,Antonio Guerrero,False,
+Milestone: Polish Your Online Presence,Anurag Reddy,False,
+Milestone: Polish Your Online Presence,Brandon White,False,
+Milestone: Polish Your Online Presence,Ghulam Bhatti,False,
+Milestone: Polish Your Online Presence,Giancarlo Ferrara,False,
+Milestone: Polish Your Online Presence,Gregory Screen,False,
+Milestone: Polish Your Online Presence,Ian Schucart,False,
+Milestone: Polish Your Online Presence,Jacob Teele,True,
+Milestone: Polish Your Online Presence,Jethro Aderele,False,
+Milestone: Polish Your Online Presence,Joe Reiff,False,
+Milestone: Polish Your Online Presence,John Szostak,False,
+Milestone: Polish Your Online Presence,Manish Kumar,False,
+Milestone: Polish Your Online Presence,Mark Campbell,False,
+Milestone: Polish Your Online Presence,Odette Popko,False,
+Milestone: Polish Your Online Presence,Paul Dowty,False,
+Milestone: Polish Your Online Presence,Robert Atkins,False,
+Milestone: Polish Your Online Presence,Romil Parekh,False,
+Milestone: Polish Your Online Presence,Tara Mcdaniel,False,
+Milestone: Polish Your Online Presence,Tyler White,False,
+Milestone: Polish Your Online Presence,Victor Ogbebor,False,
+Project 1,Aaron Price,True,A+
+Project 1,Alex Mack,True,A
+Project 1,Alexis Santoyo Torres,True,A+
+Project 1,Andrew Brown,True,A
+Project 1,Antonio Guerrero,True,A
+Project 1,Anurag Reddy,True,A
+Project 1,Brandon White,True,A
+Project 1,Ghulam Bhatti,True,A
+Project 1,Giancarlo Ferrara,False,
+Project 1,Gregory Screen,False,
+Project 1,Ian Schucart,False,
+Project 1,Jacob Teele,True,A+
+Project 1,Jethro Aderele,True,A
+Project 1,Joe Reiff,True,A
+Project 1,John Szostak,False,
+Project 1,Manish Kumar,True,A
+Project 1,Mark Campbell,True,A
+Project 1,Odette Popko,True,A+
+Project 1,Paul Dowty,False,
+Project 1,Robert Atkins,True,A
+Project 1,Romil Parekh,True,A
+Project 1,Tara Mcdaniel,False,
+Project 1,Tyler White,True,A
+Project 1,Victor Ogbebor,False,
+Project 2,Aaron Price,True,A
+Project 2,Alex Mack,True,A+
+Project 2,Alexis Santoyo Torres,True,A
+Project 2,Andrew Brown,True,A
+Project 2,Antonio Guerrero,True,A+
+Project 2,Anurag Reddy,True,A-
+Project 2,Brandon White,True,B+
+Project 2,Ghulam Bhatti,True,A-
+Project 2,Giancarlo Ferrara,False,
+Project 2,Gregory Screen,False,
+Project 2,Ian Schucart,False,
+Project 2,Jacob Teele,True,A
+Project 2,Jethro Aderele,True,B+
+Project 2,Joe Reiff,True,A+
+Project 2,John Szostak,False,
+Project 2,Manish Kumar,True,A-
+Project 2,Mark Campbell,True,A+
+Project 2,Odette Popko,True,A
+Project 2,Paul Dowty,False,
+Project 2,Robert Atkins,True,A-
+Project 2,Romil Parekh,True,A-
+Project 2,Tara Mcdaniel,False,
+Project 2,Tyler White,True,B+
+Project 2,Victor Ogbebor,False,
+Project 3,Aaron Price,True,A+
+Project 3,Alex Mack,True,A
+Project 3,Alexis Santoyo Torres,True,A+
+Project 3,Andrew Brown,True,A+
+Project 3,Antonio Guerrero,True,A
+Project 3,Anurag Reddy,True,B
+Project 3,Brandon White,True,B
+Project 3,Ghulam Bhatti,True,A
+Project 3,Giancarlo Ferrara,False,
+Project 3,Gregory Screen,False,
+Project 3,Ian Schucart,False,
+Project 3,Jacob Teele,True,A+
+Project 3,Jethro Aderele,True,B
+Project 3,Joe Reiff,False,
+Project 3,John Szostak,False,
+Project 3,Manish Kumar,True,A
+Project 3,Mark Campbell,True,A
+Project 3,Odette Popko,True,A+
+Project 3,Paul Dowty,False,
+Project 3,Robert Atkins,True,A
+Project 3,Romil Parekh,True,A
+Project 3,Tara Mcdaniel,False,
+Project 3,Tyler White,True,B
+Project 3,Victor Ogbebor,False,
