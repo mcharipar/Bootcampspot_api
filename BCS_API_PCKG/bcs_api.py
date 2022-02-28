@@ -97,7 +97,11 @@ class BCS_API:
             response = requests.post(url, headers=self.headers, json=data)
             response_json = response.json()
             # return response_json
-
+            
+            #  CREATE FEEDBACK QUESTIONS DF
+            feedback_questions = pd.DataFrame(response_json['surveyDefinition']['steps'])
+            self.feedback_questions = feedback_questions
+            
             my_dict = dict() 
             for index,value in enumerate(response_json['submissions']):
                 my_dict[index] = value
@@ -126,5 +130,47 @@ class BCS_API:
             self.feedback = stud_feedback_df
             # return stud_feedback_df
             return self.feedback
+        except:
+            print("Course has no feedback to return yet.")
+            
+            
+    def bcs_weekly_feeback_questions(self):
+        """Accepts Course ID and dictionary header. Returns dataframe of students grades for all assignents."""
+
+        try:
+            url = 'https://bootcampspot.com/api/instructor/v1/weeklyFeedback'
+            data = {"courseId": self.course_id}
+            response = requests.post(url, headers=self.headers, json=data)
+            response_json = response.json()
+            return response_json
+
+#             my_dict = dict() 
+#             for index,value in enumerate(response_json['submissions']):
+#                 my_dict[index] = value
+
+#             stud_feedback_df = pd.DataFrame()
+
+#             for x in my_dict:
+#                 feedback_df = pd.DataFrame(my_dict[x])
+#                 feedback_df.drop(['answers'], axis = 1, inplace = True)
+
+#                 temp_df = pd.DataFrame()
+#                 temp_df1 = pd.DataFrame()
+#                 for y in my_dict[x]['answers']:
+#                     try:
+#                         temp_df1 = pd.DataFrame(y)
+#                         # temp_df1 = pd.DataFrame(my_dict[0]['answers'][1])
+#                         temp_df = pd.concat([temp_df,temp_df1])
+#                     except:
+#                         pass
+
+#                 temp_df.reset_index(drop=True, inplace=True)
+#                 stud_feedback_df1 = pd.concat([feedback_df, temp_df], axis=1)
+#                 stud_feedback_df = pd.concat([stud_feedback_df, stud_feedback_df1])
+#             stud_feedback_df.index = stud_feedback_df['username']
+#             stud_feedback_df.drop(['username'], axis = 1, inplace = True)
+#             self.feedback = stud_feedback_df
+#             # return stud_feedback_df
+#             return self.feedback
         except:
             print("Course has no feedback to return yet.")

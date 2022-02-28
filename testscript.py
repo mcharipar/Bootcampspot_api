@@ -159,12 +159,14 @@ def make_window(theme):
     feedback_students_data = []
     feedback_student_heading = ['      Email      ']
     
+    feedback_questions_data = []
+    feedback_questions_heading = ['stepNumber ', '                    Text                    ']
+    
     # assignments_data = []
     # assignments_heading = ['       Assignments       ']    
     
     feedback_data = []
     feedback_heading = ['      Email      ', ' date ', 'Step Number', 'Answer']
-    
     
     feedback_graphing_layout = [
                         # EMAIL TABLE
@@ -179,22 +181,22 @@ def make_window(theme):
                                 alternating_row_color='black',
                                 key='-EMAILTABLE-', 
                                 # enable_events=True, # ADDED
-                                row_height=25)],
-        
-                                # sg.Table(values=assignments_data, 
-                                # headings=assignments_heading, 
-                                # max_col_width=25,
-                                # background_color='black',
-                                # auto_size_columns=True,
-                                # display_row_numbers=False,
-                                # justification='right',
-                                # # num_rows=2,
-                                # alternating_row_color='black',
-                                # key='-ASSIGNMENTSTABLE-', 
-                                # # enable_events=True, # ADDED
-                                # row_height=25)], 
+                                row_height=25),
+                        # QUESTIONS TABLES
+                                sg.Table(values=feedback_questions_data, 
+                                headings=feedback_questions_heading, 
+                                max_col_width=25,
+                                background_color='black',
+                                auto_size_columns=True,
+                                display_row_numbers=False,
+                                justification='right',
+                                # num_rows=2,
+                                alternating_row_color='black',
+                                key='-QUESTIONSTABLE-', 
+                                # enable_events=True, # ADDED
+                                row_height=25)], 
                         # BUTTONS
-                      [sg.Button('Update Email')],# sg.Button('Update Assignments')],
+                      [sg.Button('Update Email'), sg.Button('Update Quesitions')],
                               
                         # FEEDBACK TABLE
                               [sg.Table(values=feedback_data, 
@@ -414,6 +416,40 @@ def main():
                 print("Feedback Table failed to update.")
                 feedback_data = [["Feedback Table failed to update."]]
                 window['-FEEDBACKTABLE-'].update(feedback_data)
+                
+                
+        # DEBUG UPDATE QUESIONS BUTTON, WORKS WITH UPDATE ALL
+        def feedback_questions_table(self):
+            try:
+                try:
+                        questions_dataset_feedback = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'feedback_quesions.csv')
+                        feedback_questions = self.bcs_api_obj.feedback_questions
+                        feedback_questions.to_csv(questions_dataset_feedback, index=False)
+
+                        FBCKQSTDATA = []
+                        with open(questions_dataset_feedback, "r") as txt_file:
+
+                            # nextline(txt_file)
+                            # nextline(txt_file)
+            
+                            FBCKQSTDATA = txt_file.readline().replace('\n','').replace("stepNumber", '').replace('text', '').split(',')
+                            for line in txt_file:
+                                FBCKQSTDATA.append(line.replace('\n','').split(','))
+
+                        feedback_question_data = FBCKQSTDATA
+                        window['-QUESTIONSTABLE-'].update(feedback_question_data)
+                except:
+                        print("Questions Table failed to update.")
+                        feedback_question_data = [["Questions Table failed to update."]]
+                        window['-QUESTIONSTABLE-'].update(feedback_question_data)
+            except:
+                try: 
+                        bcs_tab.feedback_table()
+                        bcs_tab.feedback_questions_table()
+                except: 
+                        bcs_tabs().bcs_tab.feedback_table()
+                        bcs_tab().feedback_questions_table()
+                
     
     # MAKE WINDOW
     window = make_window(sg.theme())
@@ -497,9 +533,18 @@ def main():
             print("\nUpdate Email BUTTON PRESSED.")
             try: bcs_tab.email_table()
             except: bcs_tabs().email_table()
+        elif event == 'Update Quesitions':
+            print("\nUpdate Quesitions BUTTON PRESSED.")
+            try: 
+                bcs_tab.feedback_table()
+                bcs_tab.feedback_questions_table()
+            except: 
+                bcs_tabs().feedback_table()
+                bcs_tabs().feedback_questions_table()
         elif event == "Update Feedback Table":
             print("\nUpdate Feedback Table BUTTON PRESSED.")
-            try: bcs_tab.feedback_table()
+            try: 
+                bcs_tab.feedback_table()
             except: bcs_tabs().feedback_table()
         
         ## Update All Button
@@ -516,6 +561,7 @@ def main():
 
             bcs_tab.email_table()
             bcs_tab.feedback_table()
+            bcs_tab.feedback_questions_table()
             
             print("\nUPDATE ALL BUTTON PRESSED.")
         
