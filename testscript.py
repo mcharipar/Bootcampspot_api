@@ -21,6 +21,8 @@ import os
 from pathlib import Path
 import re
 import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.backends.backend_pdf
 
 def make_window(theme):
     sg.theme(theme)
@@ -345,7 +347,8 @@ def main():
     # class grades_tab(bcs_tabs):
         def grades_students_table(self):
             grade_students_data = [[x] for x in self.bcs_api_obj.grades.studentName.unique().tolist()]
-            try: window['-STUDENTGRADETABLE-'].update(grade_students_data)
+            self.grade_students_data = grade_students_data
+            try: window['-STUDENTGRADETABLE-'].update(self.grade_students_data)
             except: print('g.student update failed')
 
         def assignments_table(self):
@@ -371,9 +374,33 @@ def main():
                 # bcs_tabs.grades_tab.assignments_table()
                 # pass
 
-        def grades_table(self):
+        def grades_table(self, sname = 'studentName'):
             csv_dataset_grades = Path(str(Path.cwd()) + '/' + 'data' + '/' + 'grades.csv')
-            self.bcs_api_obj.grades.to_csv(csv_dataset_grades, index=False)
+            grade_df = self.bcs_api_obj.grades
+
+            figure = grade_df.groupby('studentName').sum().plot.barh(figsize=(5,10), fontsize=12)
+            plt.ylabel('Student', fontsize=14)
+            plt.axvline(14, color='r', ls='--', lw=1.5, label='Min. Assignments Needed')
+            # plt.show()
+
+
+            # Set the path and file name
+            filename = Path(r'visuals\assignments.pdf')
+            pdf = matplotlib.backends.backend_pdf.PdfPages(filename)
+
+            # plt.show()
+            plt.plot()
+            fig = plt.gcf()
+            plt.gcf().set_size_inches(11.5, 8.5)
+            # Save Output to a PDF
+            pdf.savefig(fig)
+            
+            pdf.close()
+            
+            if sname != 'studentName':
+                grade_df[grade_df.studentName == sname[0]].to_csv(csv_dataset_grades, index=False)
+            else:
+                grade_df.to_csv(csv_dataset_grades, index=False)
 
             GRDATA = []
             with open(csv_dataset_grades, "r") as txt_file:
@@ -476,13 +503,48 @@ def main():
                     cell_index = x
 
                 # cell_index = values['-STUDENTGRADETABLE-']
-                print('\n', str(cell_index), str(self.bcs_api_obj.grade_students_data))
-                print(type(cell_index))
-                print(self.bcs_api_obj.grade_students_data)
-                print(type(self.bcs_api_obj.grade_students_data))
-                print(self.bcs_api_obj.grade_students_data[cell_index])
-                print(type(self.bcs_api_obj.grade_students_data[cell_index]))
+                
+                # bcs
+                # print('\n', str(cell_index), str(self.bcs_api_obj.grade_students_data))
                 print()
+                print(type(cell_index))
+                print(str(cell_index))
+                # ADD SELF. IN bcs_tabs CLASS TO MAKE INSTANES AND CALLABLE
+                print(bcs_tab.grade_students_data[cell_index])
+                print("\nGrades TABLE UDATED.")
+                try: bcs_tab.grades_table(bcs_tab.grade_students_data[cell_index])
+                except: bcs_tabs().grades_table(bcs_tab.grade_students_data[cell_index])
+                print('\n\n\n')
+
+                
+                
+                
+                # try: window['-STUDENTGRADETABLE-'].update(grade_students_data)
+                # except: pass
+#                 print(bcs_tab.grades_students_table.grade_students_data)
+#                 print(bcs_tabs.grades_students_table.grade_students_data)
+                # print(dir(bcs_api_obj))
+        
+#                 print(bcs_tabs)
+#                 print(var(bcs_tabs))
+#                 try:
+#                         print(vars(bcs_tab))
+#                 except: 
+#                         print(vars(bcs_tabs()))
+
+#                 print(values['-STUDENTGRADETABLE-'])
+                
+#                 for i in values:
+#                     print(i)
+                
+
+                # print(str(cell_index), str(bcs_tabs().grade_students_data))
+
+#                 print(self.bcs_api_obj.grade_students_data)
+#                 print(type(self.bcs_api_obj.grade_students_data))
+#                 print(self.bcs_api_obj.grade_students_data[cell_index])
+#                 print(type(self.bcs_api_obj.grade_students_data[cell_index]))
+#                 print()
                 
                 # WAS THIS PRIOR TO CLASS MODULARIZATION
                 # print(grade_students_data[cell_index])

@@ -5,16 +5,19 @@ This is a work in progress and looking to add additional features.
 - [x] GUI
     - [ ] Update UI, add more interactivity for below features.
         - [x] Add course feedback tab.
-            - [ ] Add questions table.
-        - [ ] Have Table selections update main Table and visuals.
-        - [ ] Add Visuals to Tabs.
+            - [x] Add questions table.
+                - [ ] Update this table to be used outside of "Update All button."
+        - [x] Have Table selections update main Table and visuals.
+            - [ ] Clean up and add selection for all tabs.
+        - [x] Add Visuals to Tabs.
+            - [ ] Clean up and add PDF/visulas to tabs themselves and create more.
 - [ ] Create executable file for major OS's and a simple command to compile the executable on any machine capable of running [Anaconda](https://docs.anaconda.com/anaconda/install/index.html).
     - [ ] Possible Docker Containter creation.
 - [ ] Publish to [Pypi](https://pypi.org/) &/or to [Conda Forge](https://conda-forge.org/). 
 - [x] ~Easier way to accept BCS login credentials and to save or update them across application uses.~
 - [x] ~Allows user to select which course(s) to return data on, if multiple courses tied to single account.~
     - Only allows selection of one course at a time.
-- [ ] Saves and opens PDF report on course metrics in users default browser.
+- [x] Saves and opens PDF report on course metrics in users default browser (see above).
     - [ ] Univariate & Multivariate forecasting students potential performance.
         - [ ] Use NLP for sentiment analysis on feedback using IBM [Tone Analyzer](https://cloud.ibm.com/catalog/services/tone-analyzer). 
 - [ ] Improve documentation.
